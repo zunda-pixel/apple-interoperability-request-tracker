@@ -1,6 +1,6 @@
 # DMA 6.7 Interoperability Requests Received by Apple
 
-Source: *DMA 6.7 Interoperability Requests Received by Apple Since May 20, 2025* — for information communicated through May 3, 2026.
+Source: *DMA 6.7 Interoperability Requests Received by Apple Since May 20, 2025*. Generated from <https://developer.apple.com/file/?file=interoperability-request-tracker>.
 
 | # | Request ID | Developer | Date Received | Status | File |
 | ---: | --- | --- | --- | --- | --- |
@@ -99,4 +99,3 @@ Source: *DMA 6.7 Interoperability Requests Received by Apple Since May 20, 2025*
 | 93 | FB22583038 | [Confidential] | April 22, 2026 | Phase I | [093-FB22583038-Confidential.md](requests/093-FB22583038-Confidential.md) |
 | 94 | FB22597810 | [Confidential] | April 23, 2026 | Phase I | [094-FB22597810-Confidential.md](requests/094-FB22597810-Confidential.md) |
 | 95 | FB22683208 | [Confidential] | May 2, 2026 | Phase I | [095-FB22683208-Confidential.md](requests/095-FB22683208-Confidential.md) |
-

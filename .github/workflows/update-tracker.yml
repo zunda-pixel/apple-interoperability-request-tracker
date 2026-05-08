@@ -1,0 +1,57 @@
+name: Update interoperability tracker
+
+on:
+  schedule:
+    # Daily at 06:00 UTC (= 15:00 JST). Adjust to taste.
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+    inputs:
+      source:
+        description: "PDF source: a URL or repo-relative path. Defaults to Apple's tracker URL."
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: update-tracker
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          # Need full history so per-ticket branches can be created from origin/<base>.
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: scripts/requirements.txt
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Sync per-ticket PRs
+        env:
+          # Apple's tracker URL requires Apple Developer authentication.
+          # Store a session cookie string (e.g. "myacinfo=...; DSESSIONID=...; ...")
+          # captured from a logged-in browser as the APPLE_DEV_COOKIE secret.
+          # Cookies expire periodically — refresh the secret when this step starts to fail.
+          APPLE_DEV_COOKIE: ${{ secrets.APPLE_DEV_COOKIE }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          INPUT_SOURCE: ${{ inputs.source }}
+        run: |
+          set -euo pipefail
+          if [ -n "${INPUT_SOURCE}" ]; then
+            python scripts/sync_prs.py --source "${INPUT_SOURCE}"
+          else
+            python scripts/sync_prs.py
+          fi
