@@ -42,13 +42,22 @@ class Settings:
 
 def run(cmd: list[str], *, check: bool = True, capture: bool = False) -> str:
     print(f"$ {' '.join(cmd)}", file=sys.stderr)
-    result = subprocess.run(
-        cmd,
-        check=check,
-        text=True,
-        stdout=subprocess.PIPE if capture else None,
-        stderr=subprocess.PIPE if capture else None,
-    )
+    try:
+        result = subprocess.run(
+            cmd,
+            check=check,
+            text=True,
+            stdout=subprocess.PIPE if capture else None,
+            stderr=subprocess.PIPE if capture else None,
+        )
+    except subprocess.CalledProcessError as e:
+        # Surface captured output before re-raising so workflow logs show
+        # the underlying tool's error message.
+        if e.stdout:
+            sys.stderr.write(e.stdout)
+        if e.stderr:
+            sys.stderr.write(e.stderr)
+        raise
     if capture:
         if result.stderr:
             sys.stderr.write(result.stderr)
