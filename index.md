@@ -38,7 +38,7 @@ Source: *DMA 6.7 Interoperability Requests Received by Apple Since May 20, 2025*
 | 32 | FB20561349 | Core Devices LLC | October 7, 2025 | Phase III | [032-FB20561349-Core-Devices-LLC.md](requests/032-FB20561349-Core-Devices-LLC.md) |
 | 33 | FB20588738 | Crystal Alarm | October 9, 2025 | Closed | [033-FB20588738-Crystal-Alarm.md](requests/033-FB20588738-Crystal-Alarm.md) |
 | 34 | FB20665059 | riedel | October 14, 2025 | Closed | [034-FB20665059-riedel.md](requests/034-FB20665059-riedel.md) |
-| 35 | FB20694446 | riedel | October 16, 2025 | Closed | [035-FB20694446-riedel.md](requests/035-FB20694446-riedel.md) |
+| 35 | FB20694446 | riedel | October 16, 2025 | Phase I | [035-FB20694446-riedel.md](requests/035-FB20694446-riedel.md) |
 | 36 | FB20694671 | riedel | October 16, 2025 | Closed | [036-FB20694671-riedel.md](requests/036-FB20694671-riedel.md) |
 | 37 | FB20709207 | riedel | October 17, 2025 | Closed | [037-FB20709207-riedel.md](requests/037-FB20709207-riedel.md) |
 | 38 | FB20766232 | [Confidential] | October 21, 2025 | Closed | [038-FB20766232-Confidential.md](requests/038-FB20766232-Confidential.md) |
@@ -100,3 +100,12 @@ Source: *DMA 6.7 Interoperability Requests Received by Apple Since May 20, 2025*
 | 94 | FB22597810 | [Confidential] | April 23, 2026 | Phase I | [094-FB22597810-Confidential.md](requests/094-FB22597810-Confidential.md) |
 | 95 | FB22683208 | [Confidential] | May 2, 2026 | Phase I | [095-FB22683208-Confidential.md](requests/095-FB22683208-Confidential.md) |
 | 96 | FB22730304 | Hiroki Yazawa | May 8, 2026 | Phase I | [096-FB22730304-Hiroki-Yazawa.md](requests/096-FB22730304-Hiroki-Yazawa.md) |
+| 97 | FB22761087 | Callgoose SQIBS | May 12, 2026 | Phase I | [097-FB22761087-Callgoose-SQIBS.md](requests/097-FB22761087-Callgoose-SQIBS.md) |
+| 98 | FB22766928 | European Commission - DG DIGIT | May 12, 2026 | Phase I | [098-FB22766928-European-Commission---DG-DIGIT.md](requests/098-FB22766928-European-Commission---DG-DIGIT.md) |
+| 99 | FB22766949 | European Commission - DG DIGIT | May 12, 2026 | Phase I | [099-FB22766949-European-Commission---DG-DIGIT.md](requests/099-FB22766949-European-Commission---DG-DIGIT.md) |
+| 100 | FB22766958 | European Commission - DG DIGIT | May 12, 2026 | Phase I | [100-FB22766958-European-Commission---DG-DIGIT.md](requests/100-FB22766958-European-Commission---DG-DIGIT.md) |
+| 101 | FB22766968 | European Commission - DG DIGIT | May 12, 2026 | Phase I | [101-FB22766968-European-Commission---DG-DIGIT.md](requests/101-FB22766968-European-Commission---DG-DIGIT.md) |
+| 102 | FB22766980 | European Commission - DG DIGIT | May 12, 2026 | Phase I | [102-FB22766980-European-Commission---DG-DIGIT.md](requests/102-FB22766980-European-Commission---DG-DIGIT.md) |
+| 103 | FB22767011 | European Commission - DG DIGIT | May 12, 2026 | Phase I | [103-FB22767011-European-Commission---DG-DIGIT.md](requests/103-FB22767011-European-Commission---DG-DIGIT.md) |
+| 104 | FB22790547 | [Confidential] | May 16, 2026 | Phase I | [104-FB22790547-Confidential.md](requests/104-FB22790547-Confidential.md) |
+| 105 | FB22793451 | InVis Retail Systems, Inc. | May 16, 2026 | Phase I | [105-FB22793451-InVis-Retail-Systems-Inc.md](requests/105-FB22793451-InVis-Retail-Systems-Inc.md) |
