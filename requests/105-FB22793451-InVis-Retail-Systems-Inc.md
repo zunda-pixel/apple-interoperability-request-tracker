@@ -51,3 +51,13 @@ Fully available to other developers
 ## Additional Information
 
 Attachments
+
+## Communications with Developer
+
+May 20, 2026, from Apple to Developer:
+Thank you for your interoperability request.
+It is currently in Phase I - Eligibility review. We will reach out via this forum if we need
+clarification of your request.
+If we do not reach out for clarification, we will endeavor to provide you with the outcome of the
+initial assessment of our Phase I - Eligibility review within 20 working days of the date of your
+request, which does not include any public holiday as defined by the European Commission.
