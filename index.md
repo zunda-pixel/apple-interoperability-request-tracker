@@ -65,26 +65,26 @@ Source: *DMA 6.7 Interoperability Requests Received by Apple Since May 20, 2025*
 | 59 | FB22329535 | Microsoft | March 25, 2026 | Phase II | [059-FB22329535-Microsoft.md](requests/059-FB22329535-Microsoft.md) |
 | 60 | FB22377240 | Onside | March 31, 2026 | Phase I | [060-FB22377240-Onside.md](requests/060-FB22377240-Onside.md) |
 | 61 | FB22377251 | Onside | March 31, 2026 | Phase I | [061-FB22377251-Onside.md](requests/061-FB22377251-Onside.md) |
-| 62 | FB22377264 | Onside | March 31, 2026 | Phase I | [062-FB22377264-Onside.md](requests/062-FB22377264-Onside.md) |
-| 63 | FB22377305 | Onside | March 31, 2026 | Phase I | [063-FB22377305-Onside.md](requests/063-FB22377305-Onside.md) |
-| 64 | FB22377377 | Onside | March 31, 2026 | Phase I | [064-FB22377377-Onside.md](requests/064-FB22377377-Onside.md) |
-| 65 | FB22377077 | Onside | March 31, 2026 | Phase I | [065-FB22377077-Onside.md](requests/065-FB22377077-Onside.md) |
-| 66 | FB22376936 | Onside | March 31, 2026 | Phase I | [066-FB22376936-Onside.md](requests/066-FB22376936-Onside.md) |
-| 67 | FB22377355 | Onside | March 31, 2026 | Phase I | [067-FB22377355-Onside.md](requests/067-FB22377355-Onside.md) |
-| 68 | FB22377369 | Onside | March 31, 2026 | Phase I | [068-FB22377369-Onside.md](requests/068-FB22377369-Onside.md) |
-| 69 | FB22376965 | Onside | March 31, 2026 | Phase I | [069-FB22376965-Onside.md](requests/069-FB22376965-Onside.md) |
-| 70 | FB22377126 | Onside | March 31, 2026 | Phase I | [070-FB22377126-Onside.md](requests/070-FB22377126-Onside.md) |
-| 71 | FB22377108 | Onside | March 31, 2026 | Phase I | [071-FB22377108-Onside.md](requests/071-FB22377108-Onside.md) |
-| 72 | FB22377095 | Onside | March 31, 2026 | Phase I | [072-FB22377095-Onside.md](requests/072-FB22377095-Onside.md) |
-| 73 | FB22377055 | Onside | March 31, 2026 | Phase I | [073-FB22377055-Onside.md](requests/073-FB22377055-Onside.md) |
-| 74 | FB22377004 | Onside | March 31, 2026 | Phase I | [074-FB22377004-Onside.md](requests/074-FB22377004-Onside.md) |
-| 75 | FB22376985 | Onside | March 31, 2026 | Phase I | [075-FB22376985-Onside.md](requests/075-FB22376985-Onside.md) |
-| 76 | FB22377219 | Onside | March 31, 2026 | Phase I | [076-FB22377219-Onside.md](requests/076-FB22377219-Onside.md) |
-| 77 | FB22377334 | Onside | March 31, 2026 | Phase I | [077-FB22377334-Onside.md](requests/077-FB22377334-Onside.md) |
+| 62 | FB22377264 | Onside | March 31, 2026 | Closed | [062-FB22377264-Onside.md](requests/062-FB22377264-Onside.md) |
+| 63 | FB22377305 | Onside | March 31, 2026 | Closed | [063-FB22377305-Onside.md](requests/063-FB22377305-Onside.md) |
+| 64 | FB22377377 | Onside | March 31, 2026 | Closed | [064-FB22377377-Onside.md](requests/064-FB22377377-Onside.md) |
+| 65 | FB22377077 | Onside | March 31, 2026 | Closed | [065-FB22377077-Onside.md](requests/065-FB22377077-Onside.md) |
+| 66 | FB22376936 | Onside | March 31, 2026 | Closed | [066-FB22376936-Onside.md](requests/066-FB22376936-Onside.md) |
+| 67 | FB22377355 | Onside | March 31, 2026 | Closed | [067-FB22377355-Onside.md](requests/067-FB22377355-Onside.md) |
+| 68 | FB22377369 | Onside | March 31, 2026 | Closed | [068-FB22377369-Onside.md](requests/068-FB22377369-Onside.md) |
+| 69 | FB22376965 | Onside | March 31, 2026 | Closed | [069-FB22376965-Onside.md](requests/069-FB22376965-Onside.md) |
+| 70 | FB22377126 | Onside | March 31, 2026 | Closed | [070-FB22377126-Onside.md](requests/070-FB22377126-Onside.md) |
+| 71 | FB22377108 | Onside | March 31, 2026 | Closed | [071-FB22377108-Onside.md](requests/071-FB22377108-Onside.md) |
+| 72 | FB22377095 | Onside | March 31, 2026 | Closed | [072-FB22377095-Onside.md](requests/072-FB22377095-Onside.md) |
+| 73 | FB22377055 | Onside | March 31, 2026 | Closed | [073-FB22377055-Onside.md](requests/073-FB22377055-Onside.md) |
+| 74 | FB22377004 | Onside | March 31, 2026 | Closed | [074-FB22377004-Onside.md](requests/074-FB22377004-Onside.md) |
+| 75 | FB22376985 | Onside | March 31, 2026 | Closed | [075-FB22376985-Onside.md](requests/075-FB22376985-Onside.md) |
+| 76 | FB22377219 | Onside | March 31, 2026 | Closed | [076-FB22377219-Onside.md](requests/076-FB22377219-Onside.md) |
+| 77 | FB22377334 | Onside | March 31, 2026 | Closed | [077-FB22377334-Onside.md](requests/077-FB22377334-Onside.md) |
 | 78 | FB22455408 | AGB Consulting Group | April 9, 2026 | Closed | [078-FB22455408-AGB-Consulting-Group.md](requests/078-FB22455408-AGB-Consulting-Group.md) |
-| 79 | FB22523537 | [Confidential] | April 16, 2026 | Phase I | [079-FB22523537-Confidential.md](requests/079-FB22523537-Confidential.md) |
-| 80 | FB22526272 | Core Devices LLC | April 16, 2026 | Phase I | [080-FB22526272-Core-Devices-LLC.md](requests/080-FB22526272-Core-Devices-LLC.md) |
-| 81 | FB22566802 | [Confidential] | April 20, 2026 | Phase I | [081-FB22566802-Confidential.md](requests/081-FB22566802-Confidential.md) |
+| 79 | FB22523537 | [Confidential] | April 16, 2026 | Closed | [079-FB22523537-Confidential.md](requests/079-FB22523537-Confidential.md) |
+| 80 | FB22526272 | Core Devices LLC | April 16, 2026 | Closed | [080-FB22526272-Core-Devices-LLC.md](requests/080-FB22526272-Core-Devices-LLC.md) |
+| 81 | FB22566802 | [Confidential] | April 20, 2026 | Closed | [081-FB22566802-Confidential.md](requests/081-FB22566802-Confidential.md) |
 | 82 | FB22579786 | Santander | April 22, 2026 | Phase I | [082-FB22579786-Santander.md](requests/082-FB22579786-Santander.md) |
 | 83 | FB22580108 | Santander | April 22, 2026 | Phase I | [083-FB22580108-Santander.md](requests/083-FB22580108-Santander.md) |
 | 84 | FB22580225 | Santander | April 22, 2026 | Phase I | [084-FB22580225-Santander.md](requests/084-FB22580225-Santander.md) |
@@ -109,3 +109,4 @@ Source: *DMA 6.7 Interoperability Requests Received by Apple Since May 20, 2025*
 | 103 | FB22767011 | European Commission - DG DIGIT | May 12, 2026 | Phase I | [103-FB22767011-European-Commission---DG-DIGIT.md](requests/103-FB22767011-European-Commission---DG-DIGIT.md) |
 | 104 | FB22790547 | [Confidential] | May 16, 2026 | Phase I | [104-FB22790547-Confidential.md](requests/104-FB22790547-Confidential.md) |
 | 105 | FB22793451 | InVis Retail Systems, Inc. | May 16, 2026 | Phase I | [105-FB22793451-InVis-Retail-Systems-Inc.md](requests/105-FB22793451-InVis-Retail-Systems-Inc.md) |
+| 106 | FB22826381 | Gunp Media di Eloisa Brero & C. S.A.S. | May 21, 2026 | Phase I | [106-FB22826381-Gunp-Media-di-Eloisa-Brero-C-SAS.md](requests/106-FB22826381-Gunp-Media-di-Eloisa-Brero-C-SAS.md) |
