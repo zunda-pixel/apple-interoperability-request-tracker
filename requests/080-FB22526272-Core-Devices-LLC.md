@@ -5,7 +5,7 @@
 | Developer | Core Devices LLC |
 | Request ID | FB22526272 |
 | Date Received | April 16, 2026 |
-| Current Status | Phase I |
+| Current Status | Closed |
 
 ## Descriptive Title
 
