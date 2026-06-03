@@ -5,7 +5,7 @@
 | Developer | [Confidential] |
 | Request ID | FB17741920 |
 | Date Received | May 29, 2025 |
-| Current Status | Phase III |
+| Current Status | Partially fulfilled / Phase III |
 | Confidential | Yes |
 
 ## Generic Description
