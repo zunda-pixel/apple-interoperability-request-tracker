@@ -7,7 +7,7 @@ Source: *DMA 6.7 Interoperability Requests Received by Apple Since May 20, 2025*
 | 1 | FB17654537 | iSH | May 19, 2025 | Closed | [001-FB17654537-iSH.md](requests/001-FB17654537-iSH.md) |
 | 2 | FB17723280 | Microsoft | May 27, 2025 | Closed | [002-FB17723280-Microsoft.md](requests/002-FB17723280-Microsoft.md) |
 | 3 | FB17723378 | Microsoft | May 27, 2025 | Closed | [003-FB17723378-Microsoft.md](requests/003-FB17723378-Microsoft.md) |
-| 4 | FB17741920 | [Confidential] | May 29, 2025 | Phase III | [004-FB17741920-Confidential.md](requests/004-FB17741920-Confidential.md) |
+| 4 | FB17741920 | [Confidential] | May 29, 2025 | Partially fulfilled / Phase III | [004-FB17741920-Confidential.md](requests/004-FB17741920-Confidential.md) |
 | 5 | FB17742720 | Siddharth Bhatia | May 30, 2025 | Closed | [005-FB17742720-Siddharth-Bhatia.md](requests/005-FB17742720-Siddharth-Bhatia.md) |
 | 6 | FB17815578 | [Confidential] | June 7, 2025 | Closed | [006-FB17815578-Confidential.md](requests/006-FB17815578-Confidential.md) |
 | 7 | FB17860697 | [Confidential] | June 10, 2025 | Closed | [007-FB17860697-Confidential.md](requests/007-FB17860697-Confidential.md) |
@@ -85,19 +85,19 @@ Source: *DMA 6.7 Interoperability Requests Received by Apple Since May 20, 2025*
 | 79 | FB22523537 | [Confidential] | April 16, 2026 | Closed | [079-FB22523537-Confidential.md](requests/079-FB22523537-Confidential.md) |
 | 80 | FB22526272 | Core Devices LLC | April 16, 2026 | Closed | [080-FB22526272-Core-Devices-LLC.md](requests/080-FB22526272-Core-Devices-LLC.md) |
 | 81 | FB22566802 | [Confidential] | April 20, 2026 | Closed | [081-FB22566802-Confidential.md](requests/081-FB22566802-Confidential.md) |
-| 82 | FB22579786 | Santander | April 22, 2026 | Phase I | [082-FB22579786-Santander.md](requests/082-FB22579786-Santander.md) |
-| 83 | FB22580108 | Santander | April 22, 2026 | Phase I | [083-FB22580108-Santander.md](requests/083-FB22580108-Santander.md) |
-| 84 | FB22580225 | Santander | April 22, 2026 | Phase I | [084-FB22580225-Santander.md](requests/084-FB22580225-Santander.md) |
-| 85 | FB22580355 | Santander | April 22, 2026 | Phase I | [085-FB22580355-Santander.md](requests/085-FB22580355-Santander.md) |
-| 86 | FB22580695 | [Confidential] | April 22, 2026 | Phase I | [086-FB22580695-Confidential.md](requests/086-FB22580695-Confidential.md) |
-| 87 | FB22581702 | [Confidential] | April 22, 2026 | Phase I | [087-FB22581702-Confidential.md](requests/087-FB22581702-Confidential.md) |
-| 88 | FB22581829 | [Confidential] | April 22, 2026 | Phase I | [088-FB22581829-Confidential.md](requests/088-FB22581829-Confidential.md) |
-| 89 | FB22582361 | [Confidential] | April 22, 2026 | Phase I | [089-FB22582361-Confidential.md](requests/089-FB22582361-Confidential.md) |
-| 90 | FB22582660 | [Confidential] | April 22, 2026 | Phase I | [090-FB22582660-Confidential.md](requests/090-FB22582660-Confidential.md) |
-| 91 | FB22582799 | [Confidential] | April 22, 2026 | Phase I | [091-FB22582799-Confidential.md](requests/091-FB22582799-Confidential.md) |
-| 92 | FB22582964 | [Confidential] | April 22, 2026 | Phase I | [092-FB22582964-Confidential.md](requests/092-FB22582964-Confidential.md) |
-| 93 | FB22583038 | [Confidential] | April 22, 2026 | Phase I | [093-FB22583038-Confidential.md](requests/093-FB22583038-Confidential.md) |
-| 94 | FB22597810 | [Confidential] | April 23, 2026 | Phase I | [094-FB22597810-Confidential.md](requests/094-FB22597810-Confidential.md) |
+| 82 | FB22579786 | Santander | April 22, 2026 | Closed | [082-FB22579786-Santander.md](requests/082-FB22579786-Santander.md) |
+| 83 | FB22580108 | Santander | April 22, 2026 | Closed | [083-FB22580108-Santander.md](requests/083-FB22580108-Santander.md) |
+| 84 | FB22580225 | Santander | April 22, 2026 | Closed | [084-FB22580225-Santander.md](requests/084-FB22580225-Santander.md) |
+| 85 | FB22580355 | Santander | April 22, 2026 | Closed | [085-FB22580355-Santander.md](requests/085-FB22580355-Santander.md) |
+| 86 | FB22580695 | [Confidential] | April 22, 2026 | Closed | [086-FB22580695-Confidential.md](requests/086-FB22580695-Confidential.md) |
+| 87 | FB22581702 | [Confidential] | April 22, 2026 | Closed | [087-FB22581702-Confidential.md](requests/087-FB22581702-Confidential.md) |
+| 88 | FB22581829 | [Confidential] | April 22, 2026 | Closed | [088-FB22581829-Confidential.md](requests/088-FB22581829-Confidential.md) |
+| 89 | FB22582361 | [Confidential] | April 22, 2026 | Closed | [089-FB22582361-Confidential.md](requests/089-FB22582361-Confidential.md) |
+| 90 | FB22582660 | [Confidential] | April 22, 2026 | Closed | [090-FB22582660-Confidential.md](requests/090-FB22582660-Confidential.md) |
+| 91 | FB22582799 | [Confidential] | April 22, 2026 | Closed | [091-FB22582799-Confidential.md](requests/091-FB22582799-Confidential.md) |
+| 92 | FB22582964 | [Confidential] | April 22, 2026 | Closed | [092-FB22582964-Confidential.md](requests/092-FB22582964-Confidential.md) |
+| 93 | FB22583038 | [Confidential] | April 22, 2026 | Closed | [093-FB22583038-Confidential.md](requests/093-FB22583038-Confidential.md) |
+| 94 | FB22597810 | [Confidential] | April 23, 2026 | Closed | [094-FB22597810-Confidential.md](requests/094-FB22597810-Confidential.md) |
 | 95 | FB22683208 | [Confidential] | May 2, 2026 | Phase I | [095-FB22683208-Confidential.md](requests/095-FB22683208-Confidential.md) |
 | 96 | FB22730304 | Hiroki Yazawa | May 8, 2026 | Phase I | [096-FB22730304-Hiroki-Yazawa.md](requests/096-FB22730304-Hiroki-Yazawa.md) |
 | 97 | FB22761087 | Callgoose SQIBS | May 12, 2026 | Phase I | [097-FB22761087-Callgoose-SQIBS.md](requests/097-FB22761087-Callgoose-SQIBS.md) |
