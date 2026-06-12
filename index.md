@@ -29,13 +29,13 @@ Source: *DMA 6.7 Interoperability Requests Received by Apple Since May 20, 2025*
 | 23 | FB19780206 | [Confidential] | August 20, 2025 | Closed | [023-FB19780206-Confidential.md](requests/023-FB19780206-Confidential.md) |
 | 24 | FB19980879 | Jonathan Maharaj | August 29, 2025 | Closed | [024-FB19980879-Jonathan-Maharaj.md](requests/024-FB19980879-Jonathan-Maharaj.md) |
 | 25 | FB20278537 | Q Misell | September 17, 2025 | Closed | [025-FB20278537-Q-Misell.md](requests/025-FB20278537-Q-Misell.md) |
-| 26 | FB20296905 | Core Devices LLC | September 18, 2025 | Phase III | [026-FB20296905-Core-Devices-LLC.md](requests/026-FB20296905-Core-Devices-LLC.md) |
+| 26 | FB20296905 | Core Devices LLC | September 18, 2025 | Fulfilled | [026-FB20296905-Core-Devices-LLC.md](requests/026-FB20296905-Core-Devices-LLC.md) |
 | 27 | FB20297184 | Core Devices LLC | September 18, 2025 | Phase III | [027-FB20297184-Core-Devices-LLC.md](requests/027-FB20297184-Core-Devices-LLC.md) |
 | 28 | FB20305212 | Core Devices LLC | September 19, 2025 | Closed | [028-FB20305212-Core-Devices-LLC.md](requests/028-FB20305212-Core-Devices-LLC.md) |
 | 29 | FB20464780 | Nonstrict | October 1, 2025 | Closed | [029-FB20464780-Nonstrict.md](requests/029-FB20464780-Nonstrict.md) |
 | 30 | FB20508333 | [Confidential] | October 3, 2025 | Closed | [030-FB20508333-Confidential.md](requests/030-FB20508333-Confidential.md) |
 | 31 | FB20511534 | Inkeliz | October 4, 2025 | Closed | [031-FB20511534-Inkeliz.md](requests/031-FB20511534-Inkeliz.md) |
-| 32 | FB20561349 | Core Devices LLC | October 7, 2025 | Phase III | [032-FB20561349-Core-Devices-LLC.md](requests/032-FB20561349-Core-Devices-LLC.md) |
+| 32 | FB20561349 | Core Devices LLC | October 7, 2025 | Fulfilled | [032-FB20561349-Core-Devices-LLC.md](requests/032-FB20561349-Core-Devices-LLC.md) |
 | 33 | FB20588738 | Crystal Alarm | October 9, 2025 | Closed | [033-FB20588738-Crystal-Alarm.md](requests/033-FB20588738-Crystal-Alarm.md) |
 | 34 | FB20665059 | riedel | October 14, 2025 | Closed | [034-FB20665059-riedel.md](requests/034-FB20665059-riedel.md) |
 | 35 | FB20694446 | riedel | October 16, 2025 | Phase I | [035-FB20694446-riedel.md](requests/035-FB20694446-riedel.md) |
@@ -54,7 +54,7 @@ Source: *DMA 6.7 Interoperability Requests Received by Apple Since May 20, 2025*
 | 48 | FB21208692 | Onside | November 29, 2025 | Closed | [048-FB21208692-Onside.md](requests/048-FB21208692-Onside.md) |
 | 49 | FB21231434 | Alipay | December 1, 2025 | Closed | [049-FB21231434-Alipay.md](requests/049-FB21231434-Alipay.md) |
 | 50 | FB21292026 | [Confidential] | December 8, 2025 | Phase I | [050-FB21292026-Confidential.md](requests/050-FB21292026-Confidential.md) |
-| 51 | FB21328806 | Core Devices LLC | December 12, 2025 | Phase III | [051-FB21328806-Core-Devices-LLC.md](requests/051-FB21328806-Core-Devices-LLC.md) |
+| 51 | FB21328806 | Core Devices LLC | December 12, 2025 | Fulfilled | [051-FB21328806-Core-Devices-LLC.md](requests/051-FB21328806-Core-Devices-LLC.md) |
 | 52 | FB21362405 | Ayuchi Tsukamoto | December 17, 2025 | Closed | [052-FB21362405-Ayuchi-Tsukamoto.md](requests/052-FB21362405-Ayuchi-Tsukamoto.md) |
 | 53 | FB21640241 | [Confidential] | January 15, 2026 | Closed | [053-FB21640241-Confidential.md](requests/053-FB21640241-Confidential.md) |
 | 54 | FB21689218 | Jann Schafranek | January 20, 2026 | Closed | [054-FB21689218-Jann-Schafranek.md](requests/054-FB21689218-Jann-Schafranek.md) |
@@ -98,7 +98,7 @@ Source: *DMA 6.7 Interoperability Requests Received by Apple Since May 20, 2025*
 | 92 | FB22582964 | [Confidential] | April 22, 2026 | Closed | [092-FB22582964-Confidential.md](requests/092-FB22582964-Confidential.md) |
 | 93 | FB22583038 | [Confidential] | April 22, 2026 | Closed | [093-FB22583038-Confidential.md](requests/093-FB22583038-Confidential.md) |
 | 94 | FB22597810 | [Confidential] | April 23, 2026 | Closed | [094-FB22597810-Confidential.md](requests/094-FB22597810-Confidential.md) |
-| 95 | FB22683208 | [Confidential] | May 2, 2026 | Phase I | [095-FB22683208-Confidential.md](requests/095-FB22683208-Confidential.md) |
+| 95 | FB22683208 | [Confidential] | May 2, 2026 | Closed | [095-FB22683208-Confidential.md](requests/095-FB22683208-Confidential.md) |
 | 96 | FB22730304 | Hiroki Yazawa | May 8, 2026 | Phase I | [096-FB22730304-Hiroki-Yazawa.md](requests/096-FB22730304-Hiroki-Yazawa.md) |
 | 97 | FB22761087 | Callgoose SQIBS | May 12, 2026 | Phase I | [097-FB22761087-Callgoose-SQIBS.md](requests/097-FB22761087-Callgoose-SQIBS.md) |
 | 98 | FB22766928 | European Commission - DG DIGIT | May 12, 2026 | Phase I | [098-FB22766928-European-Commission---DG-DIGIT.md](requests/098-FB22766928-European-Commission---DG-DIGIT.md) |
