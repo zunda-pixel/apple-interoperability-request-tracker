@@ -5,7 +5,7 @@
 | Developer | Core Devices LLC |
 | Request ID | FB21328806 |
 | Date Received | December 12, 2025 |
-| Current Status | Phase III |
+| Current Status | Fulfilled |
 
 ## Descriptive Title
 
@@ -103,3 +103,46 @@ release, this will conclude our work on your interoperability request, and we wi
 request as complete.
 If you have any questions on the solution that shipped in a beta release for developer testing,
 please reply to this communication and we will ensure that we direct assistance appropriately.
+June 4, 2026, from Apple to Developer:
+In January 2026, we informed you that a solution to your interoperability request regarding iOS
+Notifications shipped on December 15, 2025, in an iOS 26.3 beta release in the EU for
+developer testing.
+We write to update you that we have shipped the final iOS Notifications solution on May 11,
+2026, in the EU as part of iOS 26.5. The final solution allows developers to request notification
+forwarding from users, forward iOS content from any iOS app that has notifications enabled to
+their third-party accessories, and receive notification replies or actions back from the accessory.
+Accessories can enable this functionality once they are paired to an iOS device via
+AccessorySetupKit (“ASK”).
+The AccessoryNotifications framework is based on three extensions that you will need to include
+in your accessory’s companion app. More information on the three extensions is available at:
+•
+https://developer.apple.com/documentation/accessorytransportextension/
+accessorydataprovider;
+•
+https://developer.apple.com/documentation/AccessoryTransportExtension; and
+•
+https://developer.apple.com/documentation/accessorytransportextension/
+accessorytransportsecurity.
+The framework enables bidirectional communication for actionable notifications and systemwide
+dismissal, and communication to the accessory for Priority Notifications and Notification
+Summaries. You will be able to choose which transport technology (Bluetooth, LAN, or internet)
+you wish to support to deliver iOS Notifications from your companion app’s extension to your
+relevant connected physical device. If you choose to support multiple transport technologies,
+then iOS will select the most appropriate available transport to use for delivering the notification.
+Once a user has paired their accessory using ASK, you can decide when your companion app
+will present a permission prompt and on-boarding UI by calling the
+AccessoryNotificationCenter.requestForwarding(for:) API. The user will then have the ability to
+select which iOS Notifications are shown on your connected physical device from within your
+companion app. Users can also choose to forward iOS Notifications to your accessory within a
+menu in the Settings app.
+The AccessoryNotifications framework supports forwarding to multiple accessories, including to
+multiple paired third-party accessories.
+Apple has published technical specifications and documentation for the iOS Notifications
+solution, available at:
+•
+https://developer.apple.com/documentation/accessorynotifications
+This concludes our work on your interoperability request, and we will close your request out as
+complete.
+If you have any questions on the solution we shipped, please reach out to us through Apple
+Developer Forums, Feedback Assistant, or a code-level support request, or reply to this
+communication and we will direct your request to the appropriate team.
