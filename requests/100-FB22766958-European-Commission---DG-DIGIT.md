@@ -5,7 +5,7 @@
 | Developer | European Commission - DG DIGIT |
 | Request ID | FB22766958 |
 | Date Received | May 12, 2026 |
-| Current Status | Phase I |
+| Current Status | Closed |
 
 ## Descriptive Title
 
