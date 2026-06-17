@@ -101,12 +101,14 @@ Source: *DMA 6.7 Interoperability Requests Received by Apple Since May 20, 2025*
 | 95 | FB22683208 | [Confidential] | May 2, 2026 | Closed | [095-FB22683208-Confidential.md](requests/095-FB22683208-Confidential.md) |
 | 96 | FB22730304 | Hiroki Yazawa | May 8, 2026 | Phase I | [096-FB22730304-Hiroki-Yazawa.md](requests/096-FB22730304-Hiroki-Yazawa.md) |
 | 97 | FB22761087 | Callgoose SQIBS | May 12, 2026 | Phase I | [097-FB22761087-Callgoose-SQIBS.md](requests/097-FB22761087-Callgoose-SQIBS.md) |
-| 98 | FB22766928 | European Commission - DG DIGIT | May 12, 2026 | Phase I | [098-FB22766928-European-Commission---DG-DIGIT.md](requests/098-FB22766928-European-Commission---DG-DIGIT.md) |
-| 99 | FB22766949 | European Commission - DG DIGIT | May 12, 2026 | Phase I | [099-FB22766949-European-Commission---DG-DIGIT.md](requests/099-FB22766949-European-Commission---DG-DIGIT.md) |
-| 100 | FB22766958 | European Commission - DG DIGIT | May 12, 2026 | Phase I | [100-FB22766958-European-Commission---DG-DIGIT.md](requests/100-FB22766958-European-Commission---DG-DIGIT.md) |
-| 101 | FB22766968 | European Commission - DG DIGIT | May 12, 2026 | Phase I | [101-FB22766968-European-Commission---DG-DIGIT.md](requests/101-FB22766968-European-Commission---DG-DIGIT.md) |
-| 102 | FB22766980 | European Commission - DG DIGIT | May 12, 2026 | Phase I | [102-FB22766980-European-Commission---DG-DIGIT.md](requests/102-FB22766980-European-Commission---DG-DIGIT.md) |
-| 103 | FB22767011 | European Commission - DG DIGIT | May 12, 2026 | Phase I | [103-FB22767011-European-Commission---DG-DIGIT.md](requests/103-FB22767011-European-Commission---DG-DIGIT.md) |
-| 104 | FB22790547 | [Confidential] | May 16, 2026 | Phase I | [104-FB22790547-Confidential.md](requests/104-FB22790547-Confidential.md) |
-| 105 | FB22793451 | InVis Retail Systems, Inc. | May 16, 2026 | Phase I | [105-FB22793451-InVis-Retail-Systems-Inc.md](requests/105-FB22793451-InVis-Retail-Systems-Inc.md) |
+| 98 | FB22766928 | European Commission - DG DIGIT | May 12, 2026 | Closed | [098-FB22766928-European-Commission---DG-DIGIT.md](requests/098-FB22766928-European-Commission---DG-DIGIT.md) |
+| 99 | FB22766949 | European Commission - DG DIGIT | May 12, 2026 | Closed | [099-FB22766949-European-Commission---DG-DIGIT.md](requests/099-FB22766949-European-Commission---DG-DIGIT.md) |
+| 100 | FB22766958 | European Commission - DG DIGIT | May 12, 2026 | Closed | [100-FB22766958-European-Commission---DG-DIGIT.md](requests/100-FB22766958-European-Commission---DG-DIGIT.md) |
+| 101 | FB22766968 | European Commission - DG DIGIT | May 12, 2026 | Closed | [101-FB22766968-European-Commission---DG-DIGIT.md](requests/101-FB22766968-European-Commission---DG-DIGIT.md) |
+| 102 | FB22766980 | European Commission - DG DIGIT | May 12, 2026 | Closed | [102-FB22766980-European-Commission---DG-DIGIT.md](requests/102-FB22766980-European-Commission---DG-DIGIT.md) |
+| 103 | FB22767011 | European Commission - DG DIGIT | May 12, 2026 | Closed | [103-FB22767011-European-Commission---DG-DIGIT.md](requests/103-FB22767011-European-Commission---DG-DIGIT.md) |
+| 104 | FB22790547 | [Confidential] | May 16, 2026 | Closed | [104-FB22790547-Confidential.md](requests/104-FB22790547-Confidential.md) |
+| 105 | FB22793451 | InVis Retail Systems, Inc. | May 16, 2026 | Closed | [105-FB22793451-InVis-Retail-Systems-Inc.md](requests/105-FB22793451-InVis-Retail-Systems-Inc.md) |
 | 106 | FB22826381 | Gunp Media di Eloisa Brero & C. S.A.S. | May 21, 2026 | Phase I | [106-FB22826381-Gunp-Media-di-Eloisa-Brero-C-SAS.md](requests/106-FB22826381-Gunp-Media-di-Eloisa-Brero-C-SAS.md) |
+| 107 | FB22975930 | [Confidential] | June 8, 2026 | Phase I | [107-FB22975930-Confidential.md](requests/107-FB22975930-Confidential.md) |
+| 108 | FB22979610 | Jakub Langer | June 8, 2026 | Phase I | [108-FB22979610-Jakub-Langer.md](requests/108-FB22979610-Jakub-Langer.md) |
