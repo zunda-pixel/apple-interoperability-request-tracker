@@ -5,7 +5,7 @@
 | Developer | European Commission - DG DIGIT |
 | Request ID | FB22766949 |
 | Date Received | May 12, 2026 |
-| Current Status | Phase I |
+| Current Status | Closed |
 
 ## Descriptive Title
 
@@ -135,3 +135,29 @@ clarification of your request.
 If we do not reach out for clarification, we will endeavor to provide you with the outcome of the
 initial assessment of our Phase I - Eligibility review within 20 working days of the date of your
 request, which does not include any public holiday as defined by the European Commission.
+June 12, 2026, from Apple to Developer:
+Thank you for your request. We understand that you represent the Directorate-General for
+Digital Services of the European Commission (DG DIGIT) responsible for digital services that
+support other Commission departments and EU institutions. We also understand that your
+request seeks interoperability for purposes of providing a Mobile Threat Detection and
+Response (MTDR) Platform for a fleet of corporate-owned and BYOD devices of EU staff
+working at various Commission departments and EU institutions. Against this background, we
+understand that you are not a business user or a provider of services on Apple's platforms and
+are therefore ineligible to seek interoperability with hardware and software features controlled
+by Apple's operating systems under Article 6(7) of the DMA.
+Notwithstanding the above, we have reviewed your submission and determined that your
+request would, in any case, fall outside the scope of Article 6(7) DMA because the functionality
+to which you seek access — entitlements — is not a feature of iOS or iPadOS.
+For these reasons, we are not moving your request to the next phase of our interoperability
+process.
+As these determinations are based on non-technical considerations (i.e., whether the requestor
+is a business user or a provider of services on Apple's platforms; whether what is requested
+constitutes, or is part of, a feature within the meaning of Article 6(7) DMA), your request is not
+eligible for the dispute resolution mechanism.
+This concludes our Article 6(7) DMA review.
+Without prejudice to the legal analysis under Article 6(7) DMA set out above, we understand
+that our International Business team has been in touch with your organisation to discuss how
+we can learn more about and further support where possible your organisation's specific needs
+going forward.
+If you have additional questions, you may also reach out to us through Apple Developer
+Forums, Feedback Assistant, or a code-level support request.
