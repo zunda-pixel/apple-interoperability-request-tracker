@@ -5,7 +5,7 @@
 | Developer | Gunp Media di Eloisa Brero & C. S.A.S. |
 | Request ID | FB22826381 |
 | Date Received | May 21, 2026 |
-| Current Status | Phase I |
+| Current Status | Closed |
 
 ## Descriptive Title
 
@@ -127,3 +127,18 @@ clarification of your request.
 If we do not reach out for clarification, we will endeavor to provide you with the outcome of the
 initial assessment of our Phase I - Eligibility review within 20 working days of the date of your
 request, which does not include any public holiday as defined by the European Commission.
+June 18, 2026, from Apple to Developer:
+We have reviewed your submission and determined that your request falls outside the scope of
+Article 6(7) DMA because the functionality to which you seek access — the ability to handle the
+URL schemes pcast://, itpc://, and podcast:// — is not a feature of iOS. The element of your
+request that relates to default settings on iOS is not in scope of Article 6(7) DMA. For this
+reason, we are closing your request and not moving it to the next phase of our interoperability
+process.
+As this determination is based on a non-technical consideration (i.e., whether what is
+requested constitutes, or is part of, a feature within the meaning of Article 6(7) DMA), it is not
+eligible for the dispute resolution mechanism.
+This concludes our Article 6(7) DMA review.
+If you have additional questions, you may reach out to us through Apple Developer Forums
+(https://developer.apple.com/forums/), Feedback Assistant (https://developer.apple.com/
+feedback-assistant/), or a code-level support request (https://developer.apple.com/support/
+technical/).
