@@ -109,6 +109,7 @@ Source: *DMA 6.7 Interoperability Requests Received by Apple Since May 20, 2025*
 | 103 | FB22767011 | European Commission - DG DIGIT | May 12, 2026 | Closed | [103-FB22767011-European-Commission---DG-DIGIT.md](requests/103-FB22767011-European-Commission---DG-DIGIT.md) |
 | 104 | FB22790547 | [Confidential] | May 16, 2026 | Closed | [104-FB22790547-Confidential.md](requests/104-FB22790547-Confidential.md) |
 | 105 | FB22793451 | InVis Retail Systems, Inc. | May 16, 2026 | Closed | [105-FB22793451-InVis-Retail-Systems-Inc.md](requests/105-FB22793451-InVis-Retail-Systems-Inc.md) |
-| 106 | FB22826381 | Gunp Media di Eloisa Brero & C. S.A.S. | May 21, 2026 | Phase I | [106-FB22826381-Gunp-Media-di-Eloisa-Brero-C-SAS.md](requests/106-FB22826381-Gunp-Media-di-Eloisa-Brero-C-SAS.md) |
+| 106 | FB22826381 | Gunp Media di Eloisa Brero & C. S.A.S. | May 21, 2026 | Closed | [106-FB22826381-Gunp-Media-di-Eloisa-Brero-C-SAS.md](requests/106-FB22826381-Gunp-Media-di-Eloisa-Brero-C-SAS.md) |
 | 107 | FB22975930 | [Confidential] | June 8, 2026 | Phase I | [107-FB22975930-Confidential.md](requests/107-FB22975930-Confidential.md) |
 | 108 | FB22979610 | Jakub Langer | June 8, 2026 | Phase I | [108-FB22979610-Jakub-Langer.md](requests/108-FB22979610-Jakub-Langer.md) |
+| 109 | FB23287576 | Ömer Güven | June 20, 2026 | Phase I | [109-FB23287576-Ömer-Güven.md](requests/109-FB23287576-Ömer-Güven.md) |
