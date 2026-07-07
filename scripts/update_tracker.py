@@ -21,7 +21,7 @@ from pathlib import Path
 
 import fitz  # PyMuPDF
 
-DEFAULT_PDF_URL = "https://developer.apple.com/file/?file=interoperability-request-tracker"
+DEFAULT_PDF_URL = "https://developer.apple.com/file/?file=interoperability-request-tracker&format=pdf"
 DEFAULT_OUT_DIR = "requests"
 DEFAULT_INDEX = "index.md"
 COOKIE_ENV = "APPLE_DEV_COOKIE"
@@ -326,7 +326,7 @@ def write_outputs(chunks: list[str], out_dir: Path, index_path: Path) -> int:
     index = [
         "# DMA 6.7 Interoperability Requests Received by Apple\n",
         "Source: *DMA 6.7 Interoperability Requests Received by Apple Since May 20, 2025*. "
-        "Generated from <https://developer.apple.com/file/?file=interoperability-request-tracker>.\n",
+        f"Generated from <{DEFAULT_PDF_URL}>.\n",
         "| # | Request ID | Developer | Date Received | Status | File |",
         "| ---: | --- | --- | --- | --- | --- |",
     ]
