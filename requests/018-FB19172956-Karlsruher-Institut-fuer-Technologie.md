@@ -4,6 +4,7 @@
 | --- | --- |
 | Developer | Karlsruher Institut fuer Technologie |
 | Request ID | FB19172956 |
+| Official page | [https://developer.apple.com/eu-interoperability-request/fb19172956/](https://developer.apple.com/eu-interoperability-request/fb19172956/) |
 | Date Received | July 28, 2025 |
 | Current Status | Closed |
 

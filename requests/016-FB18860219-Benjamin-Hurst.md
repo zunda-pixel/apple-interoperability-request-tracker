@@ -4,6 +4,7 @@
 | --- | --- |
 | Developer | Benjamin Hurst |
 | Request ID | FB18860219 |
+| Official page | [https://developer.apple.com/eu-interoperability-request/fb18860219/](https://developer.apple.com/eu-interoperability-request/fb18860219/) |
 | Date Received | July 15, 2025 |
 | Current Status | Closed |
 

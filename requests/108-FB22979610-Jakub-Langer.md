@@ -4,6 +4,7 @@
 | --- | --- |
 | Developer | Jakub Langer |
 | Request ID | FB22979610 |
+| Official page | [https://developer.apple.com/eu-interoperability-request/fb22979610/](https://developer.apple.com/eu-interoperability-request/fb22979610/) |
 | Date Received | June 8, 2026 |
 | Current Status | Phase I |
 

@@ -4,6 +4,7 @@
 | --- | --- |
 | Developer | AGB Consulting Group |
 | Request ID | FB22455408 |
+| Official page | [https://developer.apple.com/eu-interoperability-request/fb22455408/](https://developer.apple.com/eu-interoperability-request/fb22455408/) |
 | Date Received | April 9, 2026 |
 | Current Status | Closed |
 

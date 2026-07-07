@@ -4,6 +4,7 @@
 | --- | --- |
 | Developer | Crystal Alarm |
 | Request ID | FB20588738 |
+| Official page | [https://developer.apple.com/eu-interoperability-request/fb20588738/](https://developer.apple.com/eu-interoperability-request/fb20588738/) |
 | Date Received | October 9, 2025 |
 | Current Status | Closed |
 

@@ -22,6 +22,7 @@ from pathlib import Path
 import fitz  # PyMuPDF
 
 DEFAULT_PDF_URL = "https://developer.apple.com/file/?file=interoperability-request-tracker&format=pdf"
+OFFICIAL_REQUEST_URL_BASE = "https://developer.apple.com/eu-interoperability-request/"
 DEFAULT_OUT_DIR = "requests"
 DEFAULT_INDEX = "index.md"
 COOKIE_ENV = "APPLE_DEV_COOKIE"
@@ -119,6 +120,10 @@ def extract_text(pdf_bytes: bytes) -> str:
         return "".join(page.get_text() for page in doc)
     finally:
         doc.close()
+
+
+def official_request_url(request_id: str) -> str:
+    return f"{OFFICIAL_REQUEST_URL_BASE}{request_id.lower()}/"
 
 
 def safe_slug(s: str, maxlen: int = 40) -> str:
@@ -243,12 +248,14 @@ def render_markdown(meta: dict, sections: list[tuple[str, list[str]]]) -> str:
     status = meta.get("status", "")
     confidential = meta.get("confidential", False) or dev == "[Confidential]"
 
+    official_url = official_request_url(rid)
     out: list[str] = [
         f"# {rid} — {dev}\n",
         "| Field | Value |",
         "| --- | --- |",
         f"| Developer | {dev} |",
         f"| Request ID | {rid} |",
+        f"| Official page | [{official_url}]({official_url}) |",
         f"| Date Received | {date} |",
         f"| Current Status | {status} |",
     ]
@@ -331,8 +338,10 @@ def write_outputs(chunks: list[str], out_dir: Path, index_path: Path) -> int:
         "| ---: | --- | --- | --- | --- | --- |",
     ]
     for r in rows:
+        rid = r["request_id"]
+        official_url = official_request_url(rid)
         index.append(
-            f"| {r['n']} | {r['request_id']} | {r['developer']} | "
+            f"| {r['n']} | [{rid}]({official_url}) | {r['developer']} | "
             f"{r['date']} | {r['status']} | "
             f"[{r['file']}]({link_prefix}/{r['file']}) |"
         )

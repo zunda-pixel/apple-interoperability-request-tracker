@@ -4,6 +4,7 @@
 | --- | --- |
 | Developer | Jann Schafranek |
 | Request ID | FB21689218 |
+| Official page | [https://developer.apple.com/eu-interoperability-request/fb21689218/](https://developer.apple.com/eu-interoperability-request/fb21689218/) |
 | Date Received | January 20, 2026 |
 | Current Status | Closed |
 

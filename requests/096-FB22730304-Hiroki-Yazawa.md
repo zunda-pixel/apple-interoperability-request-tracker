@@ -4,6 +4,7 @@
 | --- | --- |
 | Developer | Hiroki Yazawa |
 | Request ID | FB22730304 |
+| Official page | [https://developer.apple.com/eu-interoperability-request/fb22730304/](https://developer.apple.com/eu-interoperability-request/fb22730304/) |
 | Date Received | May 8, 2026 |
 | Current Status | Phase I |
 

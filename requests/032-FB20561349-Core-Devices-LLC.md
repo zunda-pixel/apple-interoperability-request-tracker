@@ -4,6 +4,7 @@
 | --- | --- |
 | Developer | Core Devices LLC |
 | Request ID | FB20561349 |
+| Official page | [https://developer.apple.com/eu-interoperability-request/fb20561349/](https://developer.apple.com/eu-interoperability-request/fb20561349/) |
 | Date Received | October 7, 2025 |
 | Current Status | Fulfilled |
 

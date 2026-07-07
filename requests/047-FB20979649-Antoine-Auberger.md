@@ -4,6 +4,7 @@
 | --- | --- |
 | Developer | Antoine Auberger |
 | Request ID | FB20979649 |
+| Official page | [https://developer.apple.com/eu-interoperability-request/fb20979649/](https://developer.apple.com/eu-interoperability-request/fb20979649/) |
 | Date Received | November 10, 2025 |
 | Current Status | Closed |
 

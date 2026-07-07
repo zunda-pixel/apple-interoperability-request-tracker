@@ -4,6 +4,7 @@
 | --- | --- |
 | Developer | Core Devices |
 | Request ID | FB20875065 |
+| Official page | [https://developer.apple.com/eu-interoperability-request/fb20875065/](https://developer.apple.com/eu-interoperability-request/fb20875065/) |
 | Date Received | October 30, 2025 |
 | Current Status | Phase III |
 

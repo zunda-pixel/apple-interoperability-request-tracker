@@ -4,6 +4,7 @@
 | --- | --- |
 | Developer | Ayuchi Tsukamoto |
 | Request ID | FB21362405 |
+| Official page | [https://developer.apple.com/eu-interoperability-request/fb21362405/](https://developer.apple.com/eu-interoperability-request/fb21362405/) |
 | Date Received | December 17, 2025 |
 | Current Status | Closed |
 

@@ -4,6 +4,7 @@
 | --- | --- |
 | Developer | Gunp Media di Eloisa Brero & C. S.A.S. |
 | Request ID | FB22826381 |
+| Official page | [https://developer.apple.com/eu-interoperability-request/fb22826381/](https://developer.apple.com/eu-interoperability-request/fb22826381/) |
 | Date Received | May 21, 2026 |
 | Current Status | Closed |
 
