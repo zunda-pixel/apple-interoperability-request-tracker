@@ -4,6 +4,7 @@
 | --- | --- |
 | Developer | InVis Retail Systems, Inc. |
 | Request ID | FB22793451 |
+| Official page | [https://developer.apple.com/eu-interoperability-request/fb22793451/](https://developer.apple.com/eu-interoperability-request/fb22793451/) |
 | Date Received | May 16, 2026 |
 | Current Status | Closed |
 

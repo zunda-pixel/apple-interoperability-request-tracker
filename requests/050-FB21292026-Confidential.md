@@ -4,6 +4,7 @@
 | --- | --- |
 | Developer | [Confidential] |
 | Request ID | FB21292026 |
+| Official page | [https://developer.apple.com/eu-interoperability-request/fb21292026/](https://developer.apple.com/eu-interoperability-request/fb21292026/) |
 | Date Received | December 8, 2025 |
 | Current Status | Phase I |
 | Confidential | Yes |

@@ -4,6 +4,7 @@
 | --- | --- |
 | Developer | [Confidential] |
 | Request ID | FB17741920 |
+| Official page | [https://developer.apple.com/eu-interoperability-request/fb17741920/](https://developer.apple.com/eu-interoperability-request/fb17741920/) |
 | Date Received | May 29, 2025 |
 | Current Status | Partially fulfilled / Phase III |
 | Confidential | Yes |

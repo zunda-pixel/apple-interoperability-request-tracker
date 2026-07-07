@@ -4,6 +4,7 @@
 | --- | --- |
 | Developer | European Commission - DG DIGIT |
 | Request ID | FB22766980 |
+| Official page | [https://developer.apple.com/eu-interoperability-request/fb22766980/](https://developer.apple.com/eu-interoperability-request/fb22766980/) |
 | Date Received | May 12, 2026 |
 | Current Status | Closed |
 

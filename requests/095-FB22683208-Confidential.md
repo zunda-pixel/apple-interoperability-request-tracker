@@ -4,6 +4,7 @@
 | --- | --- |
 | Developer | [Confidential] |
 | Request ID | FB22683208 |
+| Official page | [https://developer.apple.com/eu-interoperability-request/fb22683208/](https://developer.apple.com/eu-interoperability-request/fb22683208/) |
 | Date Received | May 2, 2026 |
 | Current Status | Closed |
 | Confidential | Yes |

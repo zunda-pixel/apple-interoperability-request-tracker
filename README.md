@@ -28,7 +28,7 @@ reference.
 
 | Path | Description |
 | --- | --- |
-| [`index.md`](index.md) | Generated summary table of every request (ID, developer, date, status, link). |
+| [`index.md`](index.md) | Generated summary table of every request (ID, developer, date, status, links). |
 | [`requests/`](requests/) | One Markdown file per request, named `NNN-FBxxxxxx-<developer>.md`. |
 | [`scripts/update_tracker.py`](scripts/update_tracker.py) | Fetches the PDF and generates `requests/` + `index.md`. |
 | [`scripts/sync_prs.py`](scripts/sync_prs.py) | Diffs a fresh generation against the repo and opens one PR per change. |

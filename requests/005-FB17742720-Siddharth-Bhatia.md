@@ -4,6 +4,7 @@
 | --- | --- |
 | Developer | Siddharth Bhatia |
 | Request ID | FB17742720 |
+| Official page | [https://developer.apple.com/eu-interoperability-request/fb17742720/](https://developer.apple.com/eu-interoperability-request/fb17742720/) |
 | Date Received | May 30, 2025 |
 | Current Status | Closed |
 
