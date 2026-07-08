@@ -1,6 +1,6 @@
 # DMA 6.7 Interoperability Requests Received by Apple
 
-Source: *DMA 6.7 Interoperability Requests Received by Apple Since May 20, 2025*. Generated from <https://developer.apple.com/file/?file=interoperability-request-tracker>.
+Source: *DMA 6.7 Interoperability Requests Received by Apple Since May 20, 2025*. Generated from <https://developer.apple.com/file/?file=interoperability-request-tracker&format=pdf>.
 
 | # | Request ID | Developer | Date Received | Status | File |
 | ---: | --- | --- | --- | --- | --- |
