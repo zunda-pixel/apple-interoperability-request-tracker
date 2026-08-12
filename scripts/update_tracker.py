@@ -19,7 +19,7 @@ import urllib.error
 import urllib.request
 from pathlib import Path
 
-import fitz  # PyMuPDF
+import pymupdf
 
 DEFAULT_PDF_URL = "https://developer.apple.com/file/?file=interoperability-request-tracker&format=pdf"
 OFFICIAL_REQUEST_URL_BASE = "https://developer.apple.com/eu-interoperability-request/"
@@ -115,7 +115,7 @@ def fetch_pdf_bytes(source: str) -> bytes:
 
 
 def extract_text(pdf_bytes: bytes) -> str:
-    doc = fitz.open(stream=pdf_bytes, filetype="pdf")
+    doc = pymupdf.open(stream=pdf_bytes, filetype="pdf")
     try:
         return "".join(page.get_text() for page in doc)
     finally:
