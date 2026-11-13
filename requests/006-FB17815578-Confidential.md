@@ -9,6 +9,18 @@
 | Current Status | Closed |
 | Confidential | Yes |
 
-## Communications with Developer
+## Descriptive Title
 
-[Confidential communications with requestor, withheld from publication]
+Push notifications for incoming email messages
+
+## Request Type
+
+Interoperability Request
+
+## Description
+
+This request is confidential and withheld from publication.
+
+## Communications
+
+Communications with this requestor are confidential and withheld from publication.
