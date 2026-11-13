@@ -9,12 +9,18 @@
 | Current Status | Closed |
 | Confidential | Yes |
 
-## Generic Description
+## Descriptive Title
 
-Apple should enable payments with Apple Watch using either HCE or SE technology. The
-application used on the iPhone should be able to provision payment credentials into an Apple
-Watch.
+Apple Watch payment provisioning via HCE or SE
 
-## Communications with Developer
+## Request Type
 
-[Confidential communications with requestor, withheld from publication]
+Interoperability Request
+
+## Description
+
+Apple should enable payments with Apple Watch using either HCE or SE technology. The application used on the iPhone should be able to provision payment credentials into an Apple Watch.
+
+## Communications
+
+Communications with this requestor are confidential and withheld from publication.
