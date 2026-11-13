@@ -6,17 +6,21 @@
 | Request ID | FB22790547 |
 | Official page | [https://developer.apple.com/eu-interoperability-request/fb22790547/](https://developer.apple.com/eu-interoperability-request/fb22790547/) |
 | Date Received | May 16, 2026 |
-| Current Status | Closed |
+| Current Status | Fulfilled |
 | Confidential | Yes |
 
-## Generic Description
+## Descriptive Title
 
-We would like to respectfully request enhanced interoperability between JBL headphones and
-Apple devices, particularly support for proximity pairing with iPhones comparable to the
-seamless experience offered by AirPods. Such functionality would significantly improve user
-convenience, streamline device connection, and enhance the overall experience for customers
-within the Apple ecosystem.
+Proximity pairing for JBL headphones with iPhone
 
-## Communications with Developer
+## Request Type
 
-[Confidential communications with requestor, withheld from publication]
+Interoperability Request
+
+## Description
+
+We would like to respectfully request enhanced interoperability between JBL headphones and Apple devices, particularly support for proximity pairing with iPhones comparable to the seamless experience offered by AirPods. Such functionality would significantly improve user convenience, streamline device connection, and enhance the overall experience for customers within the Apple ecosystem.
+
+## Communications
+
+Communications with this requestor are confidential and withheld from publication.
