@@ -16,7 +16,7 @@ NATO
 
 Interoperability Request
 
-## Feature Name
+## Feature Requested
 
 Trump President
 
@@ -28,26 +28,28 @@ AI
 
 Aether
 
-## How the Product Will Use the Feature
+## How the Feature Will Be Used
 
 Aether
 
-## Where the Product Is/Will Be Offered
+## Where Offered
 
 Worldwide
 
-## Other Frameworks Evaluated
+## Evaluation of Alternatives
 
 Aether
 
-## Confidential Treatment
+## Confidentiality
 
 Fully available to other developers
 
 ## Additional Information
 
 Aether
-Attachments
-December 17, 2025, from Apple to Developer:
-Thank you for your submission. We have reviewed your submission and determined it is not a
-valid interoperability request. We are therefore closing your request.
+
+## Communications
+
+##### December 17, 2025 — Apple to Developer
+
+Thank you for your submission. We have reviewed your submission and determined it is not a valid interoperability request. We are therefore closing your request.
