@@ -9,11 +9,18 @@
 | Current Status | Closed |
 | Confidential | Yes |
 
-## Generic Description
+## Descriptive Title
 
-Interoperability Request under Article 6(7) DMA concerning Apple’s Age Assurance and
-Parental Control hardware and software features.
+Age Assurance and Parental Control features
 
-## Communications with Developer
+## Request Type
 
-[Confidential communications with requestor, withheld from publication]
+Interoperability Request
+
+## Description
+
+Interoperability Request under Article 6(7) DMA concerning Apple’s Age Assurance and Parental Control hardware and software features.
+
+## Communications
+
+Communications with this requestor are confidential and withheld from publication.
