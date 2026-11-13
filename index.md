@@ -1,6 +1,6 @@
 # DMA 6.7 Interoperability Requests Received by Apple
 
-Source: *DMA 6.7 Interoperability Requests Received by Apple Since May 20, 2025*. Generated from <https://developer.apple.com/file/?file=interoperability-request-tracker&format=pdf>.
+Source: <https://developer.apple.com/eu-interoperability-request/> and individual request pages.
 
 | # | Request ID | Developer | Date Received | Status | File |
 | ---: | --- | --- | --- | --- | --- |
@@ -12,7 +12,7 @@ Source: *DMA 6.7 Interoperability Requests Received by Apple Since May 20, 2025*
 | 6 | [FB17815578](https://developer.apple.com/eu-interoperability-request/fb17815578/) | [Confidential] | June 7, 2025 | Closed | [006-FB17815578-Confidential.md](requests/006-FB17815578-Confidential.md) |
 | 7 | [FB17860697](https://developer.apple.com/eu-interoperability-request/fb17860697/) | [Confidential] | June 10, 2025 | Closed | [007-FB17860697-Confidential.md](requests/007-FB17860697-Confidential.md) |
 | 8 | [FB18547959](https://developer.apple.com/eu-interoperability-request/fb18547959/) | [Confidential] | July 1, 2025 | Closed | [008-FB18547959-Confidential.md](requests/008-FB18547959-Confidential.md) |
-| 9 | [FB18758981](https://developer.apple.com/eu-interoperability-request/fb18758981/) | Q Misell | July 10, 2025 | Phase III | [009-FB18758981-Q-Misell.md](requests/009-FB18758981-Q-Misell.md) |
+| 9 | [FB18758981](https://developer.apple.com/eu-interoperability-request/fb18758981/) | [Confidential] | July 10, 2025 | Phase III | [009-FB18758981-Q-Misell.md](requests/009-FB18758981-Q-Misell.md) |
 | 10 | [FB18758984](https://developer.apple.com/eu-interoperability-request/fb18758984/) | Meta | July 10, 2025 | Closed | [010-FB18758984-Meta.md](requests/010-FB18758984-Meta.md) |
 | 11 | [FB18799038](https://developer.apple.com/eu-interoperability-request/fb18799038/) | [Confidential] | July 12, 2025 | Closed | [011-FB18799038-Confidential.md](requests/011-FB18799038-Confidential.md) |
 | 12 | [FB18804632](https://developer.apple.com/eu-interoperability-request/fb18804632/) | riedel | July 12, 2025 | Fulfilled | [012-FB18804632-riedel.md](requests/012-FB18804632-riedel.md) |
@@ -38,13 +38,13 @@ Source: *DMA 6.7 Interoperability Requests Received by Apple Since May 20, 2025*
 | 32 | [FB20561349](https://developer.apple.com/eu-interoperability-request/fb20561349/) | Core Devices LLC | October 7, 2025 | Fulfilled | [032-FB20561349-Core-Devices-LLC.md](requests/032-FB20561349-Core-Devices-LLC.md) |
 | 33 | [FB20588738](https://developer.apple.com/eu-interoperability-request/fb20588738/) | Crystal Alarm | October 9, 2025 | Closed | [033-FB20588738-Crystal-Alarm.md](requests/033-FB20588738-Crystal-Alarm.md) |
 | 34 | [FB20665059](https://developer.apple.com/eu-interoperability-request/fb20665059/) | riedel | October 14, 2025 | Closed | [034-FB20665059-riedel.md](requests/034-FB20665059-riedel.md) |
-| 35 | [FB20694446](https://developer.apple.com/eu-interoperability-request/fb20694446/) | riedel | October 16, 2025 | Phase I | [035-FB20694446-riedel.md](requests/035-FB20694446-riedel.md) |
+| 35 | [FB20694446](https://developer.apple.com/eu-interoperability-request/fb20694446/) | riedel | October 16, 2025 | Closed | [035-FB20694446-riedel.md](requests/035-FB20694446-riedel.md) |
 | 36 | [FB20694671](https://developer.apple.com/eu-interoperability-request/fb20694671/) | riedel | October 16, 2025 | Closed | [036-FB20694671-riedel.md](requests/036-FB20694671-riedel.md) |
 | 37 | [FB20709207](https://developer.apple.com/eu-interoperability-request/fb20709207/) | riedel | October 17, 2025 | Closed | [037-FB20709207-riedel.md](requests/037-FB20709207-riedel.md) |
 | 38 | [FB20766232](https://developer.apple.com/eu-interoperability-request/fb20766232/) | [Confidential] | October 21, 2025 | Closed | [038-FB20766232-Confidential.md](requests/038-FB20766232-Confidential.md) |
 | 39 | [FB20766718](https://developer.apple.com/eu-interoperability-request/fb20766718/) | [Confidential] | October 21, 2025 | Closed | [039-FB20766718-Confidential.md](requests/039-FB20766718-Confidential.md) |
 | 40 | [FB20767100](https://developer.apple.com/eu-interoperability-request/fb20767100/) | [Confidential] | October 21, 2025 | Closed | [040-FB20767100-Confidential.md](requests/040-FB20767100-Confidential.md) |
-| 41 | [FB20875065](https://developer.apple.com/eu-interoperability-request/fb20875065/) | Core Devices | October 30, 2025 | Phase III | [041-FB20875065-Core-Devices.md](requests/041-FB20875065-Core-Devices.md) |
+| 41 | [FB20875065](https://developer.apple.com/eu-interoperability-request/fb20875065/) | Core Devices LLC | October 30, 2025 | Phase III | [041-FB20875065-Core-Devices.md](requests/041-FB20875065-Core-Devices.md) |
 | 42 | [FB20882639](https://developer.apple.com/eu-interoperability-request/fb20882639/) | Meta | October 31, 2025 | Phase III | [042-FB20882639-Meta.md](requests/042-FB20882639-Meta.md) |
 | 43 | [FB20882653](https://developer.apple.com/eu-interoperability-request/fb20882653/) | Meta | October 31, 2025 | Closed | [043-FB20882653-Meta.md](requests/043-FB20882653-Meta.md) |
 | 44 | [FB20930220](https://developer.apple.com/eu-interoperability-request/fb20930220/) | [Confidential] | November 5, 2025 | Closed | [044-FB20930220-Confidential.md](requests/044-FB20930220-Confidential.md) |
@@ -53,18 +53,18 @@ Source: *DMA 6.7 Interoperability Requests Received by Apple Since May 20, 2025*
 | 47 | [FB20979649](https://developer.apple.com/eu-interoperability-request/fb20979649/) | Antoine Auberger | November 10, 2025 | Closed | [047-FB20979649-Antoine-Auberger.md](requests/047-FB20979649-Antoine-Auberger.md) |
 | 48 | [FB21208692](https://developer.apple.com/eu-interoperability-request/fb21208692/) | Onside | November 29, 2025 | Closed | [048-FB21208692-Onside.md](requests/048-FB21208692-Onside.md) |
 | 49 | [FB21231434](https://developer.apple.com/eu-interoperability-request/fb21231434/) | Alipay | December 1, 2025 | Closed | [049-FB21231434-Alipay.md](requests/049-FB21231434-Alipay.md) |
-| 50 | [FB21292026](https://developer.apple.com/eu-interoperability-request/fb21292026/) | [Confidential] | December 8, 2025 | Phase I | [050-FB21292026-Confidential.md](requests/050-FB21292026-Confidential.md) |
+| 50 | [FB21292026](https://developer.apple.com/eu-interoperability-request/fb21292026/) | [Confidential] | December 8, 2025 | Closed | [050-FB21292026-Confidential.md](requests/050-FB21292026-Confidential.md) |
 | 51 | [FB21328806](https://developer.apple.com/eu-interoperability-request/fb21328806/) | Core Devices LLC | December 12, 2025 | Fulfilled | [051-FB21328806-Core-Devices-LLC.md](requests/051-FB21328806-Core-Devices-LLC.md) |
 | 52 | [FB21362405](https://developer.apple.com/eu-interoperability-request/fb21362405/) | Ayuchi Tsukamoto | December 17, 2025 | Closed | [052-FB21362405-Ayuchi-Tsukamoto.md](requests/052-FB21362405-Ayuchi-Tsukamoto.md) |
 | 53 | [FB21640241](https://developer.apple.com/eu-interoperability-request/fb21640241/) | [Confidential] | January 15, 2026 | Closed | [053-FB21640241-Confidential.md](requests/053-FB21640241-Confidential.md) |
 | 54 | [FB21689218](https://developer.apple.com/eu-interoperability-request/fb21689218/) | Jann Schafranek | January 20, 2026 | Closed | [054-FB21689218-Jann-Schafranek.md](requests/054-FB21689218-Jann-Schafranek.md) |
 | 55 | [FB22139833](https://developer.apple.com/eu-interoperability-request/fb22139833/) | Meta | March 5, 2026 | Phase III | [055-FB22139833-Meta.md](requests/055-FB22139833-Meta.md) |
-| 56 | [FB22329512](https://developer.apple.com/eu-interoperability-request/fb22329512/) | Microsoft | March 25, 2026 | Phase III | [056-FB22329512-Microsoft.md](requests/056-FB22329512-Microsoft.md) |
+| 56 | [FB22329512](https://developer.apple.com/eu-interoperability-request/fb22329512/) | Microsoft | March 25, 2026 | Fulfilled | [056-FB22329512-Microsoft.md](requests/056-FB22329512-Microsoft.md) |
 | 57 | [FB22329549](https://developer.apple.com/eu-interoperability-request/fb22329549/) | Microsoft | March 25, 2026 | Phase III | [057-FB22329549-Microsoft.md](requests/057-FB22329549-Microsoft.md) |
 | 58 | [FB22329480](https://developer.apple.com/eu-interoperability-request/fb22329480/) | Microsoft | March 25, 2026 | Closed | [058-FB22329480-Microsoft.md](requests/058-FB22329480-Microsoft.md) |
-| 59 | [FB22329535](https://developer.apple.com/eu-interoperability-request/fb22329535/) | Microsoft | March 25, 2026 | Phase II | [059-FB22329535-Microsoft.md](requests/059-FB22329535-Microsoft.md) |
-| 60 | [FB22377240](https://developer.apple.com/eu-interoperability-request/fb22377240/) | Onside | March 31, 2026 | Phase I | [060-FB22377240-Onside.md](requests/060-FB22377240-Onside.md) |
-| 61 | [FB22377251](https://developer.apple.com/eu-interoperability-request/fb22377251/) | Onside | March 31, 2026 | Phase I | [061-FB22377251-Onside.md](requests/061-FB22377251-Onside.md) |
+| 59 | [FB22329535](https://developer.apple.com/eu-interoperability-request/fb22329535/) | Microsoft | March 25, 2026 | Phase III | [059-FB22329535-Microsoft.md](requests/059-FB22329535-Microsoft.md) |
+| 60 | [FB22377240](https://developer.apple.com/eu-interoperability-request/fb22377240/) | Onside | March 31, 2026 | Closed | [060-FB22377240-Onside.md](requests/060-FB22377240-Onside.md) |
+| 61 | [FB22377251](https://developer.apple.com/eu-interoperability-request/fb22377251/) | Onside | March 31, 2026 | Closed | [061-FB22377251-Onside.md](requests/061-FB22377251-Onside.md) |
 | 62 | [FB22377264](https://developer.apple.com/eu-interoperability-request/fb22377264/) | Onside | March 31, 2026 | Closed | [062-FB22377264-Onside.md](requests/062-FB22377264-Onside.md) |
 | 63 | [FB22377305](https://developer.apple.com/eu-interoperability-request/fb22377305/) | Onside | March 31, 2026 | Closed | [063-FB22377305-Onside.md](requests/063-FB22377305-Onside.md) |
 | 64 | [FB22377377](https://developer.apple.com/eu-interoperability-request/fb22377377/) | Onside | March 31, 2026 | Closed | [064-FB22377377-Onside.md](requests/064-FB22377377-Onside.md) |
@@ -79,7 +79,7 @@ Source: *DMA 6.7 Interoperability Requests Received by Apple Since May 20, 2025*
 | 73 | [FB22377055](https://developer.apple.com/eu-interoperability-request/fb22377055/) | Onside | March 31, 2026 | Closed | [073-FB22377055-Onside.md](requests/073-FB22377055-Onside.md) |
 | 74 | [FB22377004](https://developer.apple.com/eu-interoperability-request/fb22377004/) | Onside | March 31, 2026 | Closed | [074-FB22377004-Onside.md](requests/074-FB22377004-Onside.md) |
 | 75 | [FB22376985](https://developer.apple.com/eu-interoperability-request/fb22376985/) | Onside | March 31, 2026 | Closed | [075-FB22376985-Onside.md](requests/075-FB22376985-Onside.md) |
-| 76 | [FB22377219](https://developer.apple.com/eu-interoperability-request/fb22377219/) | Onside | March 31, 2026 | Closed | [076-FB22377219-Onside.md](requests/076-FB22377219-Onside.md) |
+| 76 | [FB22377219](https://developer.apple.com/eu-interoperability-request/fb22377219/) | Onside | March 31, 2026 | Phase II | [076-FB22377219-Onside.md](requests/076-FB22377219-Onside.md) |
 | 77 | [FB22377334](https://developer.apple.com/eu-interoperability-request/fb22377334/) | Onside | March 31, 2026 | Closed | [077-FB22377334-Onside.md](requests/077-FB22377334-Onside.md) |
 | 78 | [FB22455408](https://developer.apple.com/eu-interoperability-request/fb22455408/) | AGB Consulting Group | April 9, 2026 | Closed | [078-FB22455408-AGB-Consulting-Group.md](requests/078-FB22455408-AGB-Consulting-Group.md) |
 | 79 | [FB22523537](https://developer.apple.com/eu-interoperability-request/fb22523537/) | [Confidential] | April 16, 2026 | Closed | [079-FB22523537-Confidential.md](requests/079-FB22523537-Confidential.md) |
@@ -99,17 +99,37 @@ Source: *DMA 6.7 Interoperability Requests Received by Apple Since May 20, 2025*
 | 93 | [FB22583038](https://developer.apple.com/eu-interoperability-request/fb22583038/) | [Confidential] | April 22, 2026 | Closed | [093-FB22583038-Confidential.md](requests/093-FB22583038-Confidential.md) |
 | 94 | [FB22597810](https://developer.apple.com/eu-interoperability-request/fb22597810/) | [Confidential] | April 23, 2026 | Closed | [094-FB22597810-Confidential.md](requests/094-FB22597810-Confidential.md) |
 | 95 | [FB22683208](https://developer.apple.com/eu-interoperability-request/fb22683208/) | [Confidential] | May 2, 2026 | Closed | [095-FB22683208-Confidential.md](requests/095-FB22683208-Confidential.md) |
-| 96 | [FB22730304](https://developer.apple.com/eu-interoperability-request/fb22730304/) | Hiroki Yazawa | May 8, 2026 | Phase I | [096-FB22730304-Hiroki-Yazawa.md](requests/096-FB22730304-Hiroki-Yazawa.md) |
-| 97 | [FB22761087](https://developer.apple.com/eu-interoperability-request/fb22761087/) | Callgoose SQIBS | May 12, 2026 | Phase I | [097-FB22761087-Callgoose-SQIBS.md](requests/097-FB22761087-Callgoose-SQIBS.md) |
-| 98 | [FB22766928](https://developer.apple.com/eu-interoperability-request/fb22766928/) | European Commission - DG DIGIT | May 12, 2026 | Closed | [098-FB22766928-European-Commission---DG-DIGIT.md](requests/098-FB22766928-European-Commission---DG-DIGIT.md) |
-| 99 | [FB22766949](https://developer.apple.com/eu-interoperability-request/fb22766949/) | European Commission - DG DIGIT | May 12, 2026 | Closed | [099-FB22766949-European-Commission---DG-DIGIT.md](requests/099-FB22766949-European-Commission---DG-DIGIT.md) |
-| 100 | [FB22766958](https://developer.apple.com/eu-interoperability-request/fb22766958/) | European Commission - DG DIGIT | May 12, 2026 | Closed | [100-FB22766958-European-Commission---DG-DIGIT.md](requests/100-FB22766958-European-Commission---DG-DIGIT.md) |
-| 101 | [FB22766968](https://developer.apple.com/eu-interoperability-request/fb22766968/) | European Commission - DG DIGIT | May 12, 2026 | Closed | [101-FB22766968-European-Commission---DG-DIGIT.md](requests/101-FB22766968-European-Commission---DG-DIGIT.md) |
-| 102 | [FB22766980](https://developer.apple.com/eu-interoperability-request/fb22766980/) | European Commission - DG DIGIT | May 12, 2026 | Closed | [102-FB22766980-European-Commission---DG-DIGIT.md](requests/102-FB22766980-European-Commission---DG-DIGIT.md) |
-| 103 | [FB22767011](https://developer.apple.com/eu-interoperability-request/fb22767011/) | European Commission - DG DIGIT | May 12, 2026 | Closed | [103-FB22767011-European-Commission---DG-DIGIT.md](requests/103-FB22767011-European-Commission---DG-DIGIT.md) |
-| 104 | [FB22790547](https://developer.apple.com/eu-interoperability-request/fb22790547/) | [Confidential] | May 16, 2026 | Closed | [104-FB22790547-Confidential.md](requests/104-FB22790547-Confidential.md) |
+| 96 | [FB22730304](https://developer.apple.com/eu-interoperability-request/fb22730304/) | Hiroki Yazawa | May 8, 2026 | Closed | [096-FB22730304-Hiroki-Yazawa.md](requests/096-FB22730304-Hiroki-Yazawa.md) |
+| 97 | [FB22761087](https://developer.apple.com/eu-interoperability-request/fb22761087/) | Callgoose SQIBS | May 12, 2026 | Closed | [097-FB22761087-Callgoose-SQIBS.md](requests/097-FB22761087-Callgoose-SQIBS.md) |
+| 98 | [FB22766928](https://developer.apple.com/eu-interoperability-request/fb22766928/) | European Commission — DG DIGIT | May 12, 2026 | Closed | [098-FB22766928-European-Commission---DG-DIGIT.md](requests/098-FB22766928-European-Commission---DG-DIGIT.md) |
+| 99 | [FB22766949](https://developer.apple.com/eu-interoperability-request/fb22766949/) | European Commission — DG DIGIT | May 12, 2026 | Closed | [099-FB22766949-European-Commission---DG-DIGIT.md](requests/099-FB22766949-European-Commission---DG-DIGIT.md) |
+| 100 | [FB22766958](https://developer.apple.com/eu-interoperability-request/fb22766958/) | European Commission — DG DIGIT | May 12, 2026 | Closed | [100-FB22766958-European-Commission---DG-DIGIT.md](requests/100-FB22766958-European-Commission---DG-DIGIT.md) |
+| 101 | [FB22766968](https://developer.apple.com/eu-interoperability-request/fb22766968/) | European Commission — DG DIGIT | May 12, 2026 | Closed | [101-FB22766968-European-Commission---DG-DIGIT.md](requests/101-FB22766968-European-Commission---DG-DIGIT.md) |
+| 102 | [FB22766980](https://developer.apple.com/eu-interoperability-request/fb22766980/) | European Commission — DG DIGIT | May 12, 2026 | Closed | [102-FB22766980-European-Commission---DG-DIGIT.md](requests/102-FB22766980-European-Commission---DG-DIGIT.md) |
+| 103 | [FB22767011](https://developer.apple.com/eu-interoperability-request/fb22767011/) | European Commission — DG DIGIT | May 12, 2026 | Closed | [103-FB22767011-European-Commission---DG-DIGIT.md](requests/103-FB22767011-European-Commission---DG-DIGIT.md) |
+| 104 | [FB22790547](https://developer.apple.com/eu-interoperability-request/fb22790547/) | [Confidential] | May 16, 2026 | Fulfilled | [104-FB22790547-Confidential.md](requests/104-FB22790547-Confidential.md) |
 | 105 | [FB22793451](https://developer.apple.com/eu-interoperability-request/fb22793451/) | InVis Retail Systems, Inc. | May 16, 2026 | Closed | [105-FB22793451-InVis-Retail-Systems-Inc.md](requests/105-FB22793451-InVis-Retail-Systems-Inc.md) |
 | 106 | [FB22826381](https://developer.apple.com/eu-interoperability-request/fb22826381/) | Gunp Media di Eloisa Brero & C. S.A.S. | May 21, 2026 | Closed | [106-FB22826381-Gunp-Media-di-Eloisa-Brero-C-SAS.md](requests/106-FB22826381-Gunp-Media-di-Eloisa-Brero-C-SAS.md) |
-| 107 | [FB22975930](https://developer.apple.com/eu-interoperability-request/fb22975930/) | [Confidential] | June 8, 2026 | Phase I | [107-FB22975930-Confidential.md](requests/107-FB22975930-Confidential.md) |
-| 108 | [FB22979610](https://developer.apple.com/eu-interoperability-request/fb22979610/) | Jakub Langer | June 8, 2026 | Phase I | [108-FB22979610-Jakub-Langer.md](requests/108-FB22979610-Jakub-Langer.md) |
-| 109 | [FB23287576](https://developer.apple.com/eu-interoperability-request/fb23287576/) | Ömer Güven | June 20, 2026 | Phase I | [109-FB23287576-Ömer-Güven.md](requests/109-FB23287576-Ömer-Güven.md) |
+| 107 | [FB22975930](https://developer.apple.com/eu-interoperability-request/fb22975930/) | [Confidential] | June 8, 2026 | Closed | [107-FB22975930-Confidential.md](requests/107-FB22975930-Confidential.md) |
+| 108 | [FB22979610](https://developer.apple.com/eu-interoperability-request/fb22979610/) | Jakub Langer | June 8, 2026 | Closed | [108-FB22979610-Jakub-Langer.md](requests/108-FB22979610-Jakub-Langer.md) |
+| 109 | [FB23287576](https://developer.apple.com/eu-interoperability-request/fb23287576/) | Ömer Güven | June 20, 2026 | Closed | [109-FB23287576-Ömer-Güven.md](requests/109-FB23287576-Ömer-Güven.md) |
+| 110 | [FB18575929](https://developer.apple.com/eu-interoperability-request/fb18575929/) | Q Misell | July 3, 2025 | Closed | [110-FB18575929-Q-Misell.md](requests/110-FB18575929-Q-Misell.md) |
+| 111 | [FB23318614](https://developer.apple.com/eu-interoperability-request/fb23318614/) | [Confidential] | June 22, 2026 | Closed | [111-FB23318614-Confidential.md](requests/111-FB23318614-Confidential.md) |
+| 112 | [FB23814187](https://developer.apple.com/eu-interoperability-request/fb23814187/) | Steffen Groß | July 17, 2026 | Closed | [112-FB23814187-Steffen-Groß.md](requests/112-FB23814187-Steffen-Groß.md) |
+| 113 | [FB24237463](https://developer.apple.com/eu-interoperability-request/fb24237463/) | Airelec Clima | August 9, 2026 | Phase II | [113-FB24237463-Airelec-Clima.md](requests/113-FB24237463-Airelec-Clima.md) |
+| 114 | [FB24623448](https://developer.apple.com/eu-interoperability-request/fb24623448/) | [Confidential] | September 2, 2026 | Closed | [114-FB24623448-Confidential.md](requests/114-FB24623448-Confidential.md) |
+| 115 | [FB24633141](https://developer.apple.com/eu-interoperability-request/fb24633141/) | MyPA Limited | September 3, 2026 | Closed | [115-FB24633141-MyPA-Limited.md](requests/115-FB24633141-MyPA-Limited.md) |
+| 116 | [FB24680259](https://developer.apple.com/eu-interoperability-request/fb24680259/) | Benjamin Berard | September 6, 2026 | Closed | [116-FB24680259-Benjamin-Berard.md](requests/116-FB24680259-Benjamin-Berard.md) |
+| 117 | [FB24712484](https://developer.apple.com/eu-interoperability-request/fb24712484/) | Torsten Scharrer | September 9, 2026 | Phase II | [117-FB24712484-Torsten-Scharrer.md](requests/117-FB24712484-Torsten-Scharrer.md) |
+| 118 | [FB24761161](https://developer.apple.com/eu-interoperability-request/fb24761161/) | Romain Pelletant | September 12, 2026 | Phase I | [118-FB24761161-Romain-Pelletant.md](requests/118-FB24761161-Romain-Pelletant.md) |
+| 119 | [FB24775871](https://developer.apple.com/eu-interoperability-request/fb24775871/) | [Confidential] | September 14, 2026 | Phase II | [119-FB24775871-Confidential.md](requests/119-FB24775871-Confidential.md) |
+| 120 | [FB24804635](https://developer.apple.com/eu-interoperability-request/fb24804635/) | Victor Sanahuja Palomo | September 16, 2026 | Closed | [120-FB24804635-Victor-Sanahuja-Palomo.md](requests/120-FB24804635-Victor-Sanahuja-Palomo.md) |
+| 121 | [FB24825729](https://developer.apple.com/eu-interoperability-request/fb24825729/) | [Confidential] | September 17, 2026 | Closed | [121-FB24825729-Confidential.md](requests/121-FB24825729-Confidential.md) |
+| 122 | [FB24927420](https://developer.apple.com/eu-interoperability-request/fb24927420/) | [Confidential] | September 25, 2026 | Closed | [122-FB24927420-Confidential.md](requests/122-FB24927420-Confidential.md) |
+| 123 | [FB24937631](https://developer.apple.com/eu-interoperability-request/fb24937631/) | [Confidential] | September 25, 2026 | Closed | [123-FB24937631-Confidential.md](requests/123-FB24937631-Confidential.md) |
+| 124 | [FB25032471](https://developer.apple.com/eu-interoperability-request/fb25032471/) | Stefan Ischkum | October 2, 2026 | Closed | [124-FB25032471-Stefan-Ischkum.md](requests/124-FB25032471-Stefan-Ischkum.md) |
+| 125 | [FB25261246](https://developer.apple.com/eu-interoperability-request/fb25261246/) | [Confidential] | October 20, 2026 | Phase I | [125-FB25261246-Confidential.md](requests/125-FB25261246-Confidential.md) |
+| 126 | [FB25268557](https://developer.apple.com/eu-interoperability-request/fb25268557/) | Gosim Foundation Ltd | October 20, 2026 | Phase I | [126-FB25268557-Gosim-Foundation-Ltd.md](requests/126-FB25268557-Gosim-Foundation-Ltd.md) |
+| 127 | [FB25276970](https://developer.apple.com/eu-interoperability-request/fb25276970/) | Rolf Laine | October 21, 2026 | Phase I | [127-FB25276970-Rolf-Laine.md](requests/127-FB25276970-Rolf-Laine.md) |
+| 128 | [FB25277134](https://developer.apple.com/eu-interoperability-request/fb25277134/) | Rolf Laine | October 21, 2026 | Phase I | [128-FB25277134-Rolf-Laine.md](requests/128-FB25277134-Rolf-Laine.md) |
+| 129 | [FB25330811](https://developer.apple.com/eu-interoperability-request/fb25330811/) | [Confidential] | October 26, 2026 | Phase I | [129-FB25330811-Confidential.md](requests/129-FB25330811-Confidential.md) |
