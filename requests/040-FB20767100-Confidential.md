@@ -9,11 +9,18 @@
 | Current Status | Closed |
 | Confidential | Yes |
 
-## Generic Description
+## Descriptive Title
 
-API to present a system-managed file view controller with support for programmatic filtering
-and sorting to enable batch file management actions.
+System-managed file view controller with filtering and sorting
 
-## Communications with Developer
+## Request Type
 
-[Confidential communications with requestor, withheld from publication]
+Interoperability Request
+
+## Description
+
+API to present a system-managed file view controller with support for programmatic filtering and sorting to enable batch file management actions.
+
+## Communications
+
+Communications with this requestor are confidential and withheld from publication.
