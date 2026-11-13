@@ -9,11 +9,18 @@
 | Current Status | Closed |
 | Confidential | Yes |
 
-## Generic Description
+## Descriptive Title
 
-There should be no limitations for third party apps regarding time lapse between NFC payment
-attempts using iOS HCE capability.
+NFC HCE payment attempt time lapse limitations
 
-## Communications with Developer
+## Request Type
 
-[Confidential communications with requestor, withheld from publication]
+Interoperability Request
+
+## Description
+
+There should be no limitations for third party apps regarding time lapse between NFC payment attempts using iOS HCE capability.
+
+## Communications
+
+Communications with this requestor are confidential and withheld from publication.
