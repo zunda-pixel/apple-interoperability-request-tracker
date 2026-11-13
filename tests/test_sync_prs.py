@@ -55,6 +55,37 @@ class MergeRetryTests(unittest.TestCase):
                 self.assertEqual(run.call_count, 2)
                 sleep.assert_not_called()
 
+    def test_matching_unresolved_pr_retries_same_url(self):
+        message = 'GraphQL: Could not resolve to a PullRequest with the number of 123. (repository.pullRequest)'
+        for stream in ('stderr', 'output'):
+            for exhausted in (False, True):
+                with self.subTest(stream=stream, exhausted=exhausted):
+                    error = subprocess.CalledProcessError(1, MERGE, **{stream: message})
+                    results = [URL, error, error, error if exhausted else '']
+                    with patch.object(sync_prs, 'run', side_effect=results) as run, \
+                         patch.object(sync_prs.time, 'sleep') as sleep:
+                        if exhausted:
+                            with self.assertRaises(subprocess.CalledProcessError) as raised:
+                                self.invoke()
+                            self.assertIs(raised.exception, error)
+                        else:
+                            self.invoke()
+                    self.assertEqual(run.call_args_list[1:], [call(MERGE, capture=True)] * 3)
+                    self.assertEqual(sleep.call_args_list, [call(5), call(10)])
+                    self.assertEqual(run.call_count, 4)
+
+    def test_unresolved_pr_must_match_created_number_exactly(self):
+        for number in ('12', '1234', '124'):
+            with self.subTest(number=number):
+                message = f'GraphQL: Could not resolve to a PullRequest with the number of {number}. (repository.pullRequest)'
+                error = subprocess.CalledProcessError(1, MERGE, stderr=message)
+                with patch.object(sync_prs, 'run', side_effect=[URL, error]) as run, \
+                     patch.object(sync_prs.time, 'sleep') as sleep:
+                    with self.assertRaises(subprocess.CalledProcessError):
+                        self.invoke()
+                self.assertEqual(run.call_count, 2)
+                sleep.assert_not_called()
+
     def test_creation_failure_is_not_retried(self):
         error = subprocess.CalledProcessError(1, ['gh', 'pr', 'create'], stderr=sync_prs.BASE_MODIFIED_ERROR)
         with patch.object(sync_prs, 'run', side_effect=error) as run, \

@@ -103,17 +103,27 @@ def open_and_merge_pr(*, base: str, branch: str, title: str, body: str) -> None:
         capture=True,
     )
     print(f"Opened PR: {pr_url}", file=sys.stderr)
+    created_pr = re.fullmatch(r"https://[^/]+/[^/]+/[^/]+/pull/([1-9]\d*)/?", pr_url)
     for attempt in range(1, MERGE_ATTEMPTS + 1):
         try:
             run(["gh", "pr", "merge", pr_url, "--squash", "--delete-branch"], capture=True)
             return
         except subprocess.CalledProcessError as error:
             output = (error.stdout or "") + "\n" + (error.stderr or "")
-            if BASE_MODIFIED_ERROR not in output or attempt == MERGE_ATTEMPTS:
+            unresolved_prs = re.findall(
+                r"GraphQL: Could not resolve to a PullRequest with the number of ([1-9]\d*)\. "
+                r"\(repository\.pullRequest\)", output,
+            )
+            same_pr_unresolved = bool(
+                created_pr and unresolved_prs
+                and all(number == created_pr[1] for number in unresolved_prs)
+            )
+            if (BASE_MODIFIED_ERROR not in output and not same_pr_unresolved) or attempt == MERGE_ATTEMPTS:
                 raise
+            reason = "Created PR is not yet resolvable" if same_pr_unresolved else "Base branch changed"
             delay = MERGE_RETRY_SECONDS * attempt
             print(
-                f"Base branch changed while merging {pr_url}; "
+                f"{reason} while merging {pr_url}; "
                 f"retrying merge in {delay}s (attempt {attempt + 1}/{MERGE_ATTEMPTS}).",
                 file=sys.stderr,
             )
