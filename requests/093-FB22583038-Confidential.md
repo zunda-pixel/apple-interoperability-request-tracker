@@ -9,12 +9,18 @@
 | Current Status | Closed |
 | Confidential | Yes |
 
-## Generic Description
+## Descriptive Title
 
-The definition of contactless apps by default should differentiate between payment and non
-payment use cases. So that default payment apps are only triggered when customer taps into
-a payment terminal. For the rest of the cases, customer can define other default apps
+Differentiating default contactless apps for payment and non-payment use cases
 
-## Communications with Developer
+## Request Type
 
-[Confidential communications with requestor, withheld from publication]
+Interoperability Request
+
+## Description
+
+The definition of contactless apps by default should differentiate between payment and non-payment use cases, so that default payment apps are only triggered when a customer taps into a payment terminal. For the rest of the cases, customers can define other default apps.
+
+## Communications
+
+Communications with this requestor are confidential and withheld from publication.
