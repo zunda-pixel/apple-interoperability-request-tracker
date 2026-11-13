@@ -9,13 +9,18 @@
 | Current Status | Closed |
 | Confidential | Yes |
 
-## Generic Description
+## Descriptive Title
 
-Apple should open SE to contactless payments applications in Europe, with no fee, so that we
-can match the same user experience with third party apps, as the experience the customer has
-with Apple Pay. That way, payment journeys as tapping without authentication or payments off-
-battery would be feasible in third party apps, as they are today with Apple Pay
+Secure Element access for contactless payment applications
 
-## Communications with Developer
+## Request Type
 
-[Confidential communications with requestor, withheld from publication]
+Interoperability Request
+
+## Description
+
+Apple should open SE to contactless payments applications in Europe, with no fee, so that we can match the same user experience with third party apps, as the experience the customer has with Apple Pay. That way, payment journeys as tapping without authentication or payments off-battery would be feasible in third party apps, as they are today with Apple Pay.
+
+## Communications
+
+Communications with this requestor are confidential and withheld from publication.
