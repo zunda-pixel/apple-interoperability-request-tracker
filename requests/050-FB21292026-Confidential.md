@@ -6,21 +6,21 @@
 | Request ID | FB21292026 |
 | Official page | [https://developer.apple.com/eu-interoperability-request/fb21292026/](https://developer.apple.com/eu-interoperability-request/fb21292026/) |
 | Date Received | December 8, 2025 |
-| Current Status | Phase I |
+| Current Status | Closed |
 | Confidential | Yes |
 
-## Generic Description
+## Descriptive Title
 
-I am requesting interoperability with Apple’s satellite messaging capabilities used in Emergency
-SOS via Satellite and Roadside Assistance via Satellite, for the limited purpose of enabling
-structured, non-emergency marine safety check-ins within the SailTies app.
-The request is narrow in scope: when a sailor is offshore and without cellular or Wi-Fi
-connectivity, the app would allow sending a predefined satellite message (“safe arrival” or
-“overdue”) to their selected emergency contacts.
-This feature mirrors existing Coastguard-endorsed safety behaviour but fails today due to lack
-of mobile signal at sea. Apple’s first-party satellite pathway is the only realistic, secure and
-deployable method to ensure these check-ins work reliably for sailors.
+Satellite messaging interoperability for marine safety check-ins
 
-## Communications with Developer
+## Request Type
 
-[Confidential communications with requestor, withheld from publication]
+Interoperability Request
+
+## Description
+
+Requesting interoperability with Apple’s satellite messaging capabilities used in Emergency SOS via Satellite and Roadside Assistance via Satellite, for the limited purpose of enabling structured, non-emergency marine safety check-ins within the SailTies app. The request is narrow in scope: when a sailor is offshore and without cellular or Wi-Fi connectivity, the app would allow sending a predefined satellite message (“safe arrival” or “overdue”) to their selected emergency contacts. This feature mirrors existing Coastguard-endorsed safety behaviour but fails today due to lack of mobile signal at sea. Apple’s first-party satellite pathway is the only realistic, secure and deployable method to ensure these check-ins work reliably for sailors.
+
+## Communications
+
+Communications with this requestor are confidential and withheld from publication.
