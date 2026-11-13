@@ -66,3 +66,7 @@ requests keep their exact Markdown bytes and previous index metadata; new
 requests are omitted until a later successful sync. Every listed request is
 retried on the next run. Listing failures, other HTTP errors, authentication
 failures, and invalid HTML still stop the run before any output is replaced.
+
+If GitHub rejects a merge with “Base branch was modified. Review and try the
+merge again.”, the sync retries the same PR after 5 seconds and then 10 seconds
+(three attempts total). Other errors and exhausted retries still stop the sync.

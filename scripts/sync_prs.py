@@ -23,10 +23,14 @@ import shutil
 import subprocess
 import sys
 import tempfile
+import time
 from dataclasses import dataclass
 from pathlib import Path
 
 REQUEST_ID_RE = re.compile(r"FB\d+")
+MERGE_ATTEMPTS = 3
+MERGE_RETRY_SECONDS = 5
+BASE_MODIFIED_ERROR = "Base branch was modified. Review and try the merge again."
 
 
 @dataclass
@@ -99,7 +103,21 @@ def open_and_merge_pr(*, base: str, branch: str, title: str, body: str) -> None:
         capture=True,
     )
     print(f"Opened PR: {pr_url}", file=sys.stderr)
-    run(["gh", "pr", "merge", pr_url, "--squash", "--delete-branch"])
+    for attempt in range(1, MERGE_ATTEMPTS + 1):
+        try:
+            run(["gh", "pr", "merge", pr_url, "--squash", "--delete-branch"], capture=True)
+            return
+        except subprocess.CalledProcessError as error:
+            output = (error.stdout or "") + "\n" + (error.stderr or "")
+            if BASE_MODIFIED_ERROR not in output or attempt == MERGE_ATTEMPTS:
+                raise
+            delay = MERGE_RETRY_SECONDS * attempt
+            print(
+                f"Base branch changed while merging {pr_url}; "
+                f"retrying merge in {delay}s (attempt {attempt + 1}/{MERGE_ATTEMPTS}).",
+                file=sys.stderr,
+            )
+            time.sleep(delay)
 
 
 def commit_one_path(path: Path, message: str) -> None:
