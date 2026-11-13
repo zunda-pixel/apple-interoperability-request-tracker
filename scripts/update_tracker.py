@@ -228,8 +228,23 @@ def table_cell(value: str) -> str:
     return value.replace('|', r'\|').replace('\n', '<br>')
 
 
+def read_preserved_request(path: Path, request_id: str) -> tuple[bytes, dict]:
+    """Keep the original bytes and recover index metadata from its header only."""
+    content = path.read_bytes()
+    header = content.decode('utf-8').split('\n## ', 1)[0]
+    fields = dict(re.findall(r'^\| ([^|]+) \| (.*) \|$', header, re.MULTILINE))
+    required = {'developer': 'Developer', 'date_received': 'Date Received',
+                'status': 'Current Status', 'request_id': 'Request ID'}
+    if any(not fields.get(label) for label in required.values()) or fields['Request ID'] != request_id:
+        raise RuntimeError(f'{request_id}: invalid existing metadata; refusing to preserve.')
+    meta = {key: fields[label].replace(r'\|', '|').replace('<br>', '\n')
+            for key, label in required.items()}
+    return content, meta
+
+
 def write_outputs(records: list[tuple[dict, list]], out_dir: Path,
-                  index_path: Path, existing: dict[str, str]) -> int:
+                  index_path: Path, existing: dict[str, str],
+                  preserved: dict[str, tuple[bytes, dict]] | None = None) -> int:
     next_number = max((int(name.split('-')[0]) for name in existing.values()), default=0)
     outputs = {}
     rows = []
@@ -240,7 +255,11 @@ def write_outputs(records: list[tuple[dict, list]], out_dir: Path,
             next_number += 1
             slug = safe_slug(meta['developer'].replace('[', '').replace(']', ''))
             name = f'{next_number:03d}-{rid}-{slug}.md'
-        outputs[name] = render_markdown(meta, sections)
+        outputs[name] = render_markdown(meta, sections).encode('utf-8')
+        rows.append((name, meta))
+    for rid, (content, meta) in (preserved or {}).items():
+        name = existing[rid]
+        outputs[name] = content
         rows.append((name, meta))
     rows.sort(key=lambda row: int(row[0].split('-')[0]))
     link_prefix = os.path.relpath(out_dir.resolve(), index_path.resolve().parent)
@@ -261,7 +280,7 @@ def write_outputs(records: list[tuple[dict, list]], out_dir: Path,
     _safe_clear_out_dir(out_dir)
     out_dir.mkdir(parents=True, exist_ok=True)
     for name, markdown in outputs.items():
-        (out_dir / name).write_text(markdown, encoding='utf-8')
+        (out_dir / name).write_bytes(markdown)
     index_path.write_text('\n'.join(index) + '\n', encoding='utf-8')
     return len(outputs)
 
@@ -277,17 +296,33 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument('--out', type=Path, default=Path(DEFAULT_OUT_DIR))
     parser.add_argument('--index', type=Path, default=Path(DEFAULT_INDEX))
     args = parser.parse_args(argv)
-    existing = existing_filenames(args.existing_dir or args.out)
+    existing_dir = args.existing_dir or args.out
+    existing = existing_filenames(existing_dir)
     listing = parse_listing(fetch_html(args.source))
     missing = existing.keys() - {rid for rid, _ in listing}
     if missing:
         raise RuntimeError(f'Listing omits existing requests: {sorted(missing)}; refusing removal.')
     records = []
+    preserved = {}
     for i, (rid, url) in enumerate(listing, 1):
         print(f'Fetching {i}/{len(listing)}: {rid}', file=sys.stderr)
         source = str(args.details_dir / f'{rid.lower()}.html') if args.details_dir else url
-        records.append(parse_detail(fetch_html(source), rid))
-    n = write_outputs(records, args.out, args.index, existing)
+        try:
+            html = fetch_html(source)
+        except urllib.error.HTTPError as error:
+            if error.code != 500:
+                raise
+            # fetch_html has already exhausted its retries. Only detail-page
+            # HTTP 500 responses qualify; authentication and parsing still fail.
+            if rid in existing:
+                preserved[rid] = read_preserved_request(existing_dir / existing[rid], rid)
+                action = 'preserving existing Markdown and index metadata'
+            else:
+                action = 'deferring new request until a later sync'
+            print(f'::warning::{rid}: HTTP 500 after retries; {action}.', file=sys.stderr)
+            continue
+        records.append(parse_detail(html, rid))
+    n = write_outputs(records, args.out, args.index, existing, preserved)
     print(f'Wrote {n} request files + {args.index}', file=sys.stderr)
     return 0
 

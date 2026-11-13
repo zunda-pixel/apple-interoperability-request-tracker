@@ -101,6 +101,70 @@ class TrackerTests(unittest.TestCase):
                 with self.assertRaisesRegex(RuntimeError, 'omits existing'):
                     tracker.main(['--out', str(root)])
 
+    def test_http_500_preserves_existing_and_defers_new_then_recovers(self):
+        for staging in (False, True):
+            with self.subTest(staging=staging), tempfile.TemporaryDirectory() as directory:
+                root = Path(directory)
+                live = root / 'live'
+                live.mkdir()
+                old_name = f'109-{RID}-Old.md'
+                old = tracker.render_markdown(*tracker.parse_detail(DETAIL, RID)).replace(
+                    '| Current Status | Closed |', '| Current Status | Phase I |').encode()
+                (live / old_name).write_bytes(old)
+                out = root / 'staging' if staging else live
+                index = root / 'index.md'
+                new_id, good_id = 'FB99999998', 'FB99999999'
+                listing = [(RID, 'old'), (new_id, 'new'), (good_id, 'good')]
+                error = lambda: tracker.urllib.error.HTTPError('url', 500, 'Server Error', {}, None)
+                args = ['--existing-dir', str(live), '--out', str(out), '--index', str(index)]
+                good = DETAIL.replace(RID, good_id)
+                with patch.object(tracker, 'parse_listing', return_value=listing), \
+                     patch.object(tracker, 'fetch_html', side_effect=['list', error(), error(), good]), \
+                     patch('sys.stderr') as stderr:
+                    self.assertEqual(tracker.main(args), 0)
+                warnings = ''.join(call.args[0] for call in stderr.write.call_args_list)
+                self.assertIn(f'::warning::{RID}', warnings)
+                self.assertIn(f'::warning::{new_id}', warnings)
+                self.assertEqual((out / old_name).read_bytes(), old)
+                self.assertIn('| Phase I |', index.read_text())
+                self.assertNotIn(new_id, index.read_text())
+                self.assertIn(good_id, index.read_text())
+                self.assertEqual(len(list(out.glob('*.md'))), 2)
+                # A subsequent successful sync retries the failed entries.
+                args[1] = str(out)
+                with patch.object(tracker, 'parse_listing', return_value=listing), \
+                     patch.object(tracker, 'fetch_html', side_effect=[
+                         'list', DETAIL, DETAIL.replace(RID, new_id), good]):
+                    tracker.main(args)
+                self.assertIn('| Closed |', (out / old_name).read_text())
+                self.assertIn(new_id, index.read_text())
+                self.assertEqual(len(list(out.glob('*.md'))), 3)
+
+    def test_other_http_errors_and_listing_500_are_fatal(self):
+        for code, listing_failure in ((401, False), (403, False), (404, False),
+                                      (503, False), (500, True)):
+            with self.subTest(code=code, listing=listing_failure), tempfile.TemporaryDirectory() as directory:
+                root = Path(directory)
+                old = root / f'109-{RID}-Old.md'
+                old.write_text('original')
+                error = tracker.urllib.error.HTTPError('url', code, 'error', {}, None)
+                responses = [error] if listing_failure else ['list', error]
+                with patch.object(tracker, 'parse_listing', return_value=[(RID, 'detail')]), \
+                     patch.object(tracker, 'fetch_html', side_effect=responses):
+                    with self.assertRaises(tracker.urllib.error.HTTPError):
+                        tracker.main(['--out', str(root)])
+                self.assertEqual(old.read_text(), 'original')
+
+    def test_http_500_is_retried_before_propagating(self):
+        error = tracker.urllib.error.HTTPError('url', 500, 'Server Error', {}, None)
+        with patch.object(tracker.urllib.request, 'build_opener') as build, \
+             patch.object(tracker.time, 'sleep') as sleep:
+            build.return_value.open.side_effect = error
+            with self.assertRaises(tracker.urllib.error.HTTPError):
+                tracker.fetch_html(tracker.official_request_url(RID))
+            self.assertEqual(build.return_value.open.call_count, 3)
+            self.assertEqual(sleep.call_count, 2)
+
     def test_redirect_does_not_forward_cookie(self):
         handler = tracker.TrackerRedirectHandler()
         req = urllib.request.Request(tracker.DEFAULT_SOURCE_URL, headers={'Cookie': 'secret'})
