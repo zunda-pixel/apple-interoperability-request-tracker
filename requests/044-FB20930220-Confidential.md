@@ -9,11 +9,18 @@
 | Current Status | Closed |
 | Confidential | Yes |
 
-## Generic Description
+## Descriptive Title
 
-Requesting a read-only API to access the device’s battery health metrics, such as maximum
-capacity percentage and cycle count.
+Battery health metrics API
 
-## Communications with Developer
+## Request Type
 
-[Confidential communications with requestor, withheld from publication]
+Interoperability Request
+
+## Description
+
+Requesting a read-only API to access the device’s battery health metrics, such as maximum capacity percentage and cycle count.
+
+## Communications
+
+Communications with this requestor are confidential and withheld from publication.
