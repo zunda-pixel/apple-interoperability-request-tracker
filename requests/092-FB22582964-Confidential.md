@@ -9,12 +9,18 @@
 | Current Status | Closed |
 | Confidential | Yes |
 
-## Generic Description
+## Descriptive Title
 
-When an application has NFC capability, should appear within the contactless applications list
-even if the customer has not granted contactless permission. It is up to the app to get those
-permissions any time during customer lifecycle.
+NFC contactless applications list visibility
 
-## Communications with Developer
+## Request Type
 
-[Confidential communications with requestor, withheld from publication]
+Interoperability Request
+
+## Description
+
+When an application has NFC capability, should appear within the contactless applications list even if the customer has not granted contactless permission. It is up to the app to get those permissions any time during customer lifecycle.
+
+## Communications
+
+Communications with this requestor are confidential and withheld from publication.
