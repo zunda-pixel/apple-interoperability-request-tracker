@@ -9,18 +9,25 @@
 | Current Status | Closed |
 | Confidential | Yes |
 
-## Generic Description
+## Descriptive Title
 
-We request interoperability under DMA Article 6(7) for Apple’s Push Notification Service (APNs)
-as used by the native iOS Mail app.
+Interoperability with Apple Push Notification Service (APNs) for the native iOS Mail app
+
+## Request Type
+
+Interoperability Request
+
+## Description
+
+We request interoperability under DMA Article 6(7) for Apple’s Push Notification Service (APNs) as used by the native iOS Mail app.
+
 Specifically, we ask Apple to provide either:
-A general mechanism/program for third-party IMAP providers to obtain and renew APNs Mail
-certificates (com.apple.mail), or
-At minimum, a way to continue renewing our current APNs Mail certificate annually, to avoid
-breaking existing interoperability for our users.
-Without either option, our users will permanently lose push mail in iOS Mail once our certificate
-expires on October 22, 2025.
 
-## Communications with Developer
+* A general mechanism/program for third-party IMAP providers to obtain and renew APNs Mail certificates (com.apple.mail), or
+* At minimum, a way to continue renewing our current APNs Mail certificate annually, to avoid breaking existing interoperability for our users.
 
-[Confidential communications with requestor, withheld from publication]
+Without either option, our users will permanently lose push mail in iOS Mail once our certificate expires on October 22, 2025.
+
+## Communications
+
+Communications with this requestor are confidential and withheld from publication.
