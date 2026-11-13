@@ -9,11 +9,18 @@
 | Current Status | Closed |
 | Confidential | Yes |
 
-## Generic Description
+## Descriptive Title
 
-API to present the system’s app storage manager with support for filtering and sorting
-parameters, like predicates.
+System app storage manager with filtering and sorting
 
-## Communications with Developer
+## Request Type
 
-[Confidential communications with requestor, withheld from publication]
+Interoperability Request
+
+## Description
+
+API to present the system’s app storage manager with support for filtering and sorting parameters, like predicates.
+
+## Communications
+
+Communications with this requestor are confidential and withheld from publication.
