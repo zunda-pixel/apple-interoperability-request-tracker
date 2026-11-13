@@ -59,3 +59,10 @@ The first web sync may change many files: Apple has revised titles, descriptions
 section labels, and statuses, and HTML removes the PDF's artificial line breaks.
 
 Run regression tests with `python -m unittest discover -s tests`.
+
+If an individual detail page still returns HTTP 500 after all three attempts,
+the sync emits an Actions warning with its request ID and continues. Existing
+requests keep their exact Markdown bytes and previous index metadata; new
+requests are omitted until a later successful sync. Every listed request is
+retried on the next run. Listing failures, other HTTP errors, authentication
+failures, and invalid HTML still stop the run before any output is replaced.
