@@ -9,10 +9,18 @@
 | Current Status | Closed |
 | Confidential | Yes |
 
-## Generic Description
+## Descriptive Title
+
+Confidential request
+
+## Request Type
+
+Interoperability Request
+
+## Description
 
 Disclose upon request.
 
-## Communications with Developer
+## Communications
 
-[Confidential communications with requestor, withheld from publication]
+Communications with this requestor are confidential and withheld from publication.
