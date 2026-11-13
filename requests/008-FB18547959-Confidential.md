@@ -9,11 +9,18 @@
 | Current Status | Closed |
 | Confidential | Yes |
 
-## Generic Description
+## Descriptive Title
 
-The request contains business secrets which should not be disclosed to other parties at this
-point.
+Confidential
 
-## Communications with Developer
+## Request Type
 
-[Confidential communications with requestor, withheld from publication]
+Interoperability Request
+
+## Description
+
+The request contains business secrets which should not be disclosed to other parties at this point.
+
+## Communications
+
+Communications with this requestor are confidential and withheld from publication.
