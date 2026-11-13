@@ -9,11 +9,18 @@
 | Current Status | Closed |
 | Confidential | Yes |
 
-## Generic Description
+## Descriptive Title
 
-Apple Wallet activation or customization should not be part of a new Apple device
-customization process.
+Apple Wallet activation in device setup
 
-## Communications with Developer
+## Request Type
 
-[Confidential communications with requestor, withheld from publication]
+Interoperability Request
+
+## Description
+
+Apple Wallet activation or customization should not be part of a new Apple device customization process.
+
+## Communications
+
+Communications with this requestor are confidential and withheld from publication.
