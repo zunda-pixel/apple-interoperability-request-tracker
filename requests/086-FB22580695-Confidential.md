@@ -9,11 +9,18 @@
 | Current Status | Closed |
 | Confidential | Yes |
 
-## Generic Description
+## Descriptive Title
 
-Apple Wallet should not come pre-installed as an application for a new Apple device. It should
-be downloaded by the customer as any other "wallet" application.
+Apple Wallet pre-installation on new Apple devices
 
-## Communications with Developer
+## Request Type
 
-[Confidential communications with requestor, withheld from publication]
+Interoperability Request
+
+## Description
+
+Apple Wallet should not come pre-installed as an application for a new Apple device. It should be downloaded by the customer as any other “wallet” application.
+
+## Communications
+
+Communications with this requestor are confidential and withheld from publication.
