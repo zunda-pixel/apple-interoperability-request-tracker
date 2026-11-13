@@ -9,11 +9,18 @@
 | Current Status | Closed |
 | Confidential | Yes |
 
-## Generic Description
+## Descriptive Title
 
-Requesting a new, privacy-preserving framework to allow for predicate-based querying and
-batch management of files in user-controlled locations, including iCloud.
+Privacy-preserving file querying framework
 
-## Communications with Developer
+## Request Type
 
-[Confidential communications with requestor, withheld from publication]
+Interoperability Request
+
+## Description
+
+Requesting a new, privacy-preserving framework to allow for predicate-based querying and batch management of files in user-controlled locations, including iCloud.
+
+## Communications
+
+Communications with this requestor are confidential and withheld from publication.
