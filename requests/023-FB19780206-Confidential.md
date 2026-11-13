@@ -9,10 +9,18 @@
 | Current Status | Closed |
 | Confidential | Yes |
 
-## Generic Description
+## Descriptive Title
+
+Custom voice wake word similar to “Hey, Siri”
+
+## Request Type
+
+Interoperability Request
+
+## Description
 
 Provide way to create functionality similar to “Hey, Siri” voice command.
 
-## Communications with Developer
+## Communications
 
-[Confidential communications with requestor, withheld from publication]
+Communications with this requestor are confidential and withheld from publication.
