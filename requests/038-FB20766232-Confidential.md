@@ -9,11 +9,18 @@
 | Current Status | Closed |
 | Confidential | Yes |
 
-## Generic Description
+## Descriptive Title
 
-API to allow a user to request an OS-managed cleanup of system-wide temporary and cache
-files.
+API to allow a user to request an OS-managed cleanup of system-wide temporary and cache files
 
-## Communications with Developer
+## Request Type
 
-[Confidential communications with requestor, withheld from publication]
+Interoperability Request
+
+## Description
+
+API to allow a user to request an OS-managed cleanup of system-wide temporary and cache files.
+
+## Communications
+
+Communications with this requestor are confidential and withheld from publication.
