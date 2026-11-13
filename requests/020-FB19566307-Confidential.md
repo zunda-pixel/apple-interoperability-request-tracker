@@ -9,10 +9,18 @@
 | Current Status | Closed |
 | Confidential | Yes |
 
-## Generic Description
+## Descriptive Title
 
-Yes, Wheel, phone stand. Phone screw rubber 3d printed joystick.
+Phone accessory joystick
 
-## Communications with Developer
+## Request Type
 
-[Confidential communications with requestor, withheld from publication]
+Interoperability Request
+
+## Description
+
+Yes, Wheel, phone stand. Phone screw rubber 3D printed joystick.
+
+## Communications
+
+Communications with this requestor are confidential and withheld from publication.
