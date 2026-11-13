@@ -6,13 +6,21 @@
 | Request ID | FB22975930 |
 | Official page | [https://developer.apple.com/eu-interoperability-request/fb22975930/](https://developer.apple.com/eu-interoperability-request/fb22975930/) |
 | Date Received | June 8, 2026 |
-| Current Status | Phase I |
+| Current Status | Closed |
 | Confidential | Yes |
 
-## Generic Description
+## Descriptive Title
 
-Access to Apple Intelligence features for iOS, macOS, and iPadOS when available in English
+Access to Apple Intelligence features
 
-## Communications with Developer
+## Request Type
 
-[Confidential communications with requestor, withheld from publication]
+Interoperability Request
+
+## Description
+
+Access to Apple Intelligence features for iOS, macOS, and iPadOS when available in English.
+
+## Communications
+
+Communications with this requestor are confidential and withheld from publication.
