@@ -9,18 +9,20 @@
 | Current Status | Closed |
 | Confidential | Yes |
 
-## Generic Description
+## Descriptive Title
 
-This request concerns Shared with You support for web links shared in Messages.
-Today, Safari can display ordinary HTTP and HTTPS URLs shared in Messages through its
-Shared with You experience. However, third party apps appear to be limited to Shared with You
-support based on Universal Links, which is not an effective model for a browser because a
-browser does not own the websites it displays.
-We request that Apple provide an interoperability solution allowing a user's selected default
-third party browser to implement Shared with You for HTTP and HTTPS URLs on terms
-equivalent to Safari, with appropriate user consent, privacy protections, and system controlled
-attribution.
+Shared with You support for web links in Messages
 
-## Communications with Developer
+## Request Type
 
-[Confidential communications with requestor, withheld from publication]
+Interoperability Request
+
+## Description
+
+This request concerns Shared with You support for web links shared in Messages. Today, Safari can display ordinary HTTP and HTTPS URLs shared in Messages through its Shared with You experience. However, third party apps appear to be limited to Shared with You support based on Universal Links, which is not an effective model for a browser because a browser does not own the websites it displays.
+
+We request that Apple provide an interoperability solution allowing a user’s selected default third party browser to implement Shared with You for HTTP and HTTPS URLs on terms equivalent to Safari, with appropriate user consent, privacy protections, and system controlled attribution.
+
+## Communications
+
+Communications with this requestor are confidential and withheld from publication.
