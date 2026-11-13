@@ -68,5 +68,8 @@ retried on the next run. Listing failures, other HTTP errors, authentication
 failures, and invalid HTML still stop the run before any output is replaced.
 
 If GitHub rejects a merge with “Base branch was modified. Review and try the
-merge again.”, the sync retries the same PR after 5 seconds and then 10 seconds
-(three attempts total). Other errors and exhausted retries still stop the sync.
+merge again.”, or GraphQL cannot resolve the just-created PR and the error's
+PR number exactly matches the created PR URL, the sync retries the same PR after
+5 seconds and then 10 seconds (three attempts total). It does not create another
+PR. Errors referring to a different PR, other errors, and exhausted retries still
+stop the sync.
