@@ -9,11 +9,18 @@
 | Current Status | Closed |
 | Confidential | Yes |
 
-## Generic Description
+## Descriptive Title
 
-There should be no limitations for third party apps to develop a UX. Apple SDK should not
-include UX / UI components.
+Confidential request
 
-## Communications with Developer
+## Request Type
 
-[Confidential communications with requestor, withheld from publication]
+Interoperability Request
+
+## Description
+
+There should be no limitations for third-party apps to develop a full UX. Apple SDK should not include UX/UI components.
+
+## Communications
+
+Communications with this requestor are confidential and withheld from publication.
