@@ -9,11 +9,18 @@
 | Current Status | Closed |
 | Confidential | Yes |
 
-## Generic Description
+## Descriptive Title
 
-Interoperability request for .pkpass file handling and default app selection outside Apple Wallet
-on iOS
+Interoperability request for .pkpass file handling and default app selection outside Apple Wallet on iOS
 
-## Communications with Developer
+## Request Type
 
-[Confidential communications with requestor, withheld from publication]
+Interoperability Request
+
+## Description
+
+Interoperability request for .pkpass file handling and default app selection outside Apple Wallet on iOS.
+
+## Communications
+
+Communications with this requestor are confidential and withheld from publication.
