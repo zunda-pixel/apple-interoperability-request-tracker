@@ -9,10 +9,18 @@
 | Current Status | Closed |
 | Confidential | Yes |
 
-## Generic Description
+## Descriptive Title
+
+Access to the secure element for payment solution
+
+## Request Type
+
+Interoperability Request
+
+## Description
 
 Access to the secure element for payment solution.
 
-## Communications with Developer
+## Communications
 
-[Confidential communications with requestor, withheld from publication]
+Communications with this requestor are confidential and withheld from publication.
