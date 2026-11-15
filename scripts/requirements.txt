@@ -1,2 +1,2 @@
-beautifulsoup4~=4.14
+beautifulsoup4~=4.15
 markdownify~=1.2
