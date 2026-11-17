@@ -6,11 +6,11 @@
 | Request ID | FB24237463 |
 | Official page | [https://developer.apple.com/eu-interoperability-request/fb24237463/](https://developer.apple.com/eu-interoperability-request/fb24237463/) |
 | Date Received | August 9, 2026 |
-| Current Status | Phase II |
+| Current Status | Phase III |
 
 ## Descriptive Title
 
-Dual SIM cellular line selection, preferred cellular line for contacts, and cellular line information for call history
+Dual SIM interoperability for Contacts and Default Dialer apps
 
 ## Request Type
 
@@ -18,7 +18,7 @@ Interoperability Request
 
 ## Feature Requested
 
-Dual SIM cellular line selection, preferred cellular line for contacts, and cellular line information for call history
+Dual SIM interoperability for Contacts and Default Dialer apps
 
 ## Description
 
